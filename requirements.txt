@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+ollama
+chromadb
+python-multipart
+edge-tts
+faster-whisper
+SpeechRecognition
+pydub
+websockets
+sounddevice
+soundfile
+numpy

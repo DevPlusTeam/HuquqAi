@@ -1,0 +1,1202 @@
+[2026-06-05 12:28:18] [INFO] === VEKTOR BAZANI YARATISH VA YANGILASH BOSHLANDI ===
+[2026-06-05 12:28:18] [INFO] Eski ma'lumotlar tozalandi (Dublikatlarning oldini olish uchun).
+[2026-06-05 12:28:18] [INFO] 'dataset.json' faylidan 260 ta modda topildi. Ollama orqali vektorlash boshlanmoqda...
+[2026-06-05 12:28:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:20] [INFO] ✔ Muvaffaqiyatli vektorlandi: 261-modda. Jismoniy shaxsning toʻlovga qobiliyatsizligi
+[2026-06-05 12:28:23] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:23] [INFO] ✔ Muvaffaqiyatli vektorlandi: 27-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlarning muomala layoqati
+[2026-06-05 12:28:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:24] [INFO] ✔ Muvaffaqiyatli vektorlandi: 28-modda. Emansipatsiya
+[2026-06-05 12:28:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:26] [INFO] ✔ Muvaffaqiyatli vektorlandi: 29-modda. Oʻn toʻrt yoshga toʻlmagan voyaga yetmaganlarning muomala layoqati
+[2026-06-05 12:28:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:27] [INFO] ✔ Muvaffaqiyatli vektorlandi: 30-modda. Fuqaroni muomalaga layoqatsiz deb topish
+[2026-06-05 12:28:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:28] [INFO] ✔ Muvaffaqiyatli vektorlandi: 31-modda. Fuqaroning muomala layoqatini cheklash
+[2026-06-05 12:28:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 32-modda. Vasiylik va homiylik
+[2026-06-05 12:28:30] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:30] [INFO] ✔ Muvaffaqiyatli vektorlandi: 33-modda. Fuqaroni bedarak yoʻqolgan deb topish
+[2026-06-05 12:28:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 34-modda. Fuqaroni bedarak yoʻqolgan deb topish oqibatlari
+[2026-06-05 12:28:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:32] [INFO] ✔ Muvaffaqiyatli vektorlandi: 35-modda. Fuqaroni bedarak yoʻqolgan deb topish haqidagi qarorning bekor qilinishi
+[2026-06-05 12:28:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:34] [INFO] ✔ Muvaffaqiyatli vektorlandi: 36-modda. Fuqaroni vafot etgan deb eʼlon qilish
+[2026-06-05 12:28:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 37-modda. Vafot etgan deb eʼlon qilingan fuqaro qaytib kelishining oqibatlari
+[2026-06-05 12:28:38] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:38] [INFO] ✔ Muvaffaqiyatli vektorlandi: 38-modda. Fuqarolik holati hujjatlarini qayd etish
+[2026-06-05 12:28:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 39-modda. Yuridik shaxs tushunchasi
+[2026-06-05 12:28:41] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:41] [INFO] ✔ Muvaffaqiyatli vektorlandi: 40-modda. Yuridik shaxslarning turlari
+[2026-06-05 12:28:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 41-modda. Yuridik shaxsning huquq layoqati
+[2026-06-05 12:28:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:43] [INFO] ✔ Muvaffaqiyatli vektorlandi: 42-modda. Yuridik shaxslarning vujudga kelishi
+[2026-06-05 12:28:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:46] [INFO] ✔ Muvaffaqiyatli vektorlandi: 43-modda. Yuridik shaxsning taʼsis hujjatlari
+[2026-06-05 12:28:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 45-modda. Yuridik shaxsning organlari
+[2026-06-05 12:28:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:49] [INFO] ✔ Muvaffaqiyatli vektorlandi: 46-modda. Yuridik shaxsning nomi va joylashgan yeri
+[2026-06-05 12:28:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:50] [INFO] ✔ Muvaffaqiyatli vektorlandi: 47-modda. Vakolatxonalar va filiallar
+[2026-06-05 12:28:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:53] [INFO] ✔ Muvaffaqiyatli vektorlandi: 48-modda. Yuridik shaxsning javobgarligi
+[2026-06-05 12:28:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 49-modda. Yuridik shaxsni qayta tashkil etish
+[2026-06-05 12:28:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:58] [INFO] ✔ Muvaffaqiyatli vektorlandi: 50-modda. Yuridik shaxslarni qayta tashkil etishda huquqiy vorislik
+[2026-06-05 12:28:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:28:59] [INFO] ✔ Muvaffaqiyatli vektorlandi: 51-modda. Topshirish hujjati va taqsimlash balansi
+[2026-06-05 12:29:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:01] [INFO] ✔ Muvaffaqiyatli vektorlandi: 52-modda. Yuridik shaxs qayta tashkil etilganida kreditorlar huquqlarining kafolatlari
+[2026-06-05 12:29:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:03] [INFO] ✔ Muvaffaqiyatli vektorlandi: 53-modda. Yuridik shaxsni tugatish
+[2026-06-05 12:29:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:05] [INFO] ✔ Muvaffaqiyatli vektorlandi: 54-modda. Yuridik shaxsni tugatish toʻgʻrisida qaror qabul qilgan shaxsning burchlari
+[2026-06-05 12:29:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 55-modda. Yuridik shaxsni tugatish tartibi
+[2026-06-05 12:29:10] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:10] [INFO] ✔ Muvaffaqiyatli vektorlandi: 56-modda. Kreditorlarning talablarini qanoatlantirish
+[2026-06-05 12:29:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 57-modda. Yuridik shaxsning toʻlovga qobiliyatsizligi
+[2026-06-05 12:29:14] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:14] [INFO] ✔ Muvaffaqiyatli vektorlandi: 58-modda. Xoʻjalik shirkatlari va jamiyatlari toʻgʻrisidagi asosiy qoidalar
+[2026-06-05 12:29:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:16] [INFO] ✔ Muvaffaqiyatli vektorlandi: 59-modda. Xoʻjalik shirkati yoki jamiyati ishtirokchilarining huquq va burchlari
+[2026-06-05 12:29:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:17] [INFO] ✔ Muvaffaqiyatli vektorlandi: 60-modda. Toʻliq shirkat
+[2026-06-05 12:29:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:19] [INFO] ✔ Muvaffaqiyatli vektorlandi: 61-modda. Kommandit shirkat
+[2026-06-05 12:29:21] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:21] [INFO] ✔ Muvaffaqiyatli vektorlandi: 62-modda. Masʼuliyati cheklangan jamiyat
+[2026-06-05 12:29:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:22] [INFO] ✔ Muvaffaqiyatli vektorlandi: 64-modda. Aksiyadorlik jamiyati
+[2026-06-05 12:29:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:24] [INFO] ✔ Muvaffaqiyatli vektorlandi: 67-modda. Shuʼba xoʻjalik jamiyati
+[2026-06-05 12:29:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:26] [INFO] ✔ Muvaffaqiyatli vektorlandi: 68-modda. Qaram xoʻjalik jamiyati
+[2026-06-05 12:29:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:27] [INFO] ✔ Muvaffaqiyatli vektorlandi: 69-modda. Ishlab chiqarish kooperativlari
+[2026-06-05 12:29:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 73-modda. Matlubot kooperativi
+[2026-06-05 12:29:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:32] [INFO] ✔ Muvaffaqiyatli vektorlandi: 74-modda. Jamoat birlashmalari
+[2026-06-05 12:29:35] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:35] [INFO] ✔ Muvaffaqiyatli vektorlandi: 75-modda. Jamoat fondsari
+[2026-06-05 12:29:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 76-modda. Muassasalar
+[2026-06-05 12:29:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 77-modda. Yuridik shaxslar birlashmalari
+[2026-06-05 12:29:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:40] [INFO] ✔ Muvaffaqiyatli vektorlandi: 78-modda. Fuqarolarning oʻzini oʻzi boshqarish organlari
+[2026-06-05 12:29:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:41] [INFO] ✔ Muvaffaqiyatli vektorlandi: 79-modda. Davlatning fuqarolik-huquqiy munosabatlarda ishtirok etishi
+[2026-06-05 12:29:41] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:41] [INFO] ✔ Muvaffaqiyatli vektorlandi: 80-modda. Davlat va yuridik shaxslar javobgarligining farqlab qoʻyilishi
+[2026-06-05 12:29:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 81-modda. Fuqarolik huquqlari obyektlarining turlari
+[2026-06-05 12:29:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:43] [INFO] ✔ Muvaffaqiyatli vektorlandi: 82-modda. Fuqarolik huquqlari obyektlarining muomalada boʻlishi
+[2026-06-05 12:29:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:45] [INFO] ✔ Muvaffaqiyatli vektorlandi: 83-modda. Mol-mulkning turlari
+[2026-06-05 12:29:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 84-modda. Koʻchmas mol-mulkni davlat roʻyxatidan oʻtkazish
+[2026-06-05 12:29:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 85-modda. Korxona
+[2026-06-05 12:29:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 86-modda. Ashyolarning tasnifi
+[2026-06-05 12:29:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:49] [INFO] ✔ Muvaffaqiyatli vektorlandi: 87-modda. Xususiy va turga xos alomatlari bilan belgilanadigan ashyolar
+[2026-06-05 12:29:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:50] [INFO] ✔ Muvaffaqiyatli vektorlandi: 88-modda. Boʻlinadigan va boʻlinmaydigan ashyolar
+[2026-06-05 12:29:51] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:51] [INFO] ✔ Muvaffaqiyatli vektorlandi: 89-modda. Isteʼmol qilinadigan va isteʼmol qilinmaydigan ashyolar
+[2026-06-05 12:29:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:52] [INFO] ✔ Muvaffaqiyatli vektorlandi: 90-modda. Asosiy va mansub ashyolar
+[2026-06-05 12:29:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:53] [INFO] ✔ Muvaffaqiyatli vektorlandi: 91-modda. Murakkab ashyolar
+[2026-06-05 12:29:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:53] [INFO] ✔ Muvaffaqiyatli vektorlandi: 92-modda. Hosil va daromadlarga boʻlgan huquq
+[2026-06-05 12:29:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:54] [INFO] ✔ Muvaffaqiyatli vektorlandi: 93-modda. Hayvonlar
+[2026-06-05 12:29:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:54] [INFO] ✔ Muvaffaqiyatli vektorlandi: 94-modda. Pul (valyuta)
+[2026-06-05 12:29:55] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:55] [INFO] ✔ Muvaffaqiyatli vektorlandi: 95-modda. Valyuta qimmatliklari
+[2026-06-05 12:29:55] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:55] [INFO] ✔ Muvaffaqiyatli vektorlandi: 96-modda. Qimmatli qogʻozlar
+[2026-06-05 12:29:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 97-modda. Intellektual faoliyat natijalari
+[2026-06-05 12:29:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 98-modda. Xizmat va tijorat siri
+[2026-06-05 12:29:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 99-modda. Shaxsiy nomulkiy huquqlar va boshqa nomoddiy neʼmatlar
+[2026-06-05 12:29:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:58] [INFO] ✔ Muvaffaqiyatli vektorlandi: 100-modda. Shaʼn, qadr-qimmat va ishchanlik obroʻsini himoya qilish
+[2026-06-05 12:29:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:58] [INFO] ✔ Muvaffaqiyatli vektorlandi: 101-modda. Bitimlar tushunchasi
+[2026-06-05 12:29:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:58] [INFO] ✔ Muvaffaqiyatli vektorlandi: 102-modda. Bitim turlari
+[2026-06-05 12:29:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:29:59] [INFO] ✔ Muvaffaqiyatli vektorlandi: 103-modda. Bir taraflama bitimlarni huquqiy tartibga solish
+[2026-06-05 12:30:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:00] [INFO] ✔ Muvaffaqiyatli vektorlandi: 104-modda. Shartli bitimlar
+[2026-06-05 12:30:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:00] [INFO] ✔ Muvaffaqiyatli vektorlandi: 105-modda. Bitimlarning shakli
+[2026-06-05 12:30:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:01] [INFO] ✔ Muvaffaqiyatli vektorlandi: 106-modda. Bitimning ogʻzaki shakli
+[2026-06-05 12:30:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:03] [INFO] ✔ Muvaffaqiyatli vektorlandi: 107-modda. Bitimning yozma shakli
+[2026-06-05 12:30:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:03] [INFO] ✔ Muvaffaqiyatli vektorlandi: 108-modda. Bitimning oddiy yozma shakli
+[2026-06-05 12:30:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:04] [INFO] ✔ Muvaffaqiyatli vektorlandi: 109-modda. Bitimning oddiy yozma shakliga rioya qilmaslik oqibatlari
+[2026-06-05 12:30:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:05] [INFO] ✔ Muvaffaqiyatli vektorlandi: 110-modda. Bitimlarni notarial tasdiqlash
+[2026-06-05 12:30:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:05] [INFO] ✔ Muvaffaqiyatli vektorlandi: 111-modda. Bitimlarni davlat roʻyxatidan oʻtkazish
+[2026-06-05 12:30:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:06] [INFO] ✔ Muvaffaqiyatli vektorlandi: 112-modda. Bitimning notarial shakliga va uni roʻyxatdan oʻtkazish talabiga rioya qilmaslikning oqibatlari
+[2026-06-05 12:30:07] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:07] [INFO] ✔ Muvaffaqiyatli vektorlandi: 113-modda. Nizoli va oʻz-oʻzidan haqiqiy boʻlmagan bitimlar
+[2026-06-05 12:30:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 114-modda. Bitimlar haqiqiy emasligining oqibatlari toʻgʻrisidagi umumiy qoidalar
+[2026-06-05 12:30:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 115-modda. Bitimning qonun talab qiladigan shakliga rioya etmaslik
+[2026-06-05 12:30:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 116-modda. Qonunchilikning talablariga muvofiq boʻlmagan bitimning haqiqiy emasligi
+[2026-06-05 12:30:10] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:10] [INFO] ✔ Muvaffaqiyatli vektorlandi: 117-modda. Oʻn toʻrt yoshga toʻlmagan shaxs tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:30:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 118-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmagan shaxs tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:30:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 119-modda. Muomalaga layoqatsiz deb topilgan fuqaro tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:30:12] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:12] [INFO] ✔ Muvaffaqiyatli vektorlandi: 120-modda. Muomala layoqati cheklangan fuqaro tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:30:13] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:13] [INFO] ✔ Muvaffaqiyatli vektorlandi: 121-modda. Oʻz harakatlarining ahamiyatini tushuna olmaydigan yoki ularni boshqara olmaydigan fuqaro tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:30:14] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:14] [INFO] ✔ Muvaffaqiyatli vektorlandi: 122-modda. Yanglishish taʼsirida tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:30:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 123-modda. Aldash, zoʻrlik, qoʻrqitish, bir taraf vakilining ikkinchi taraf bilan yomon niyatda kelishishi yoki ogʻir holatlar yuz berishi taʼsirida tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:30:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 124-modda. Qalbaki va koʻzboʻyamachilik uchun tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:30:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:16] [INFO] ✔ Muvaffaqiyatli vektorlandi: 125-modda. Yuridik shaxs huquqiy layoqatidan tashqariga chiqadigan bitimning haqiqiy emasligi
+[2026-06-05 12:30:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:16] [INFO] ✔ Muvaffaqiyatli vektorlandi: 126-modda. Bitim tuzish vakolatlarini cheklash oqibatlari
+[2026-06-05 12:30:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:17] [INFO] ✔ Muvaffaqiyatli vektorlandi: 127-modda. Bitimning haqiqiy emas deb hisoblanish payti
+[2026-06-05 12:30:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:17] [INFO] ✔ Muvaffaqiyatli vektorlandi: 128-modda. Bitimning bir qismi haqiqiy emasligining oqibatlari
+[2026-06-05 12:30:18] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:18] [INFO] ✔ Muvaffaqiyatli vektorlandi: 129-modda. Vakillik
+[2026-06-05 12:30:18] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:18] [INFO] ✔ Muvaffaqiyatli vektorlandi: 130-modda. Muomalaga layoqatli shaxslar nomidan vakillik qilish
+[2026-06-05 12:30:18] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:18] [INFO] ✔ Muvaffaqiyatli vektorlandi: 131-modda. Muomalaga layoqatsiz shaxslar nomidan vakillik qilish
+[2026-06-05 12:30:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:19] [INFO] ✔ Muvaffaqiyatli vektorlandi: 132-modda. Vakolatsiz vakillik
+[2026-06-05 12:30:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:20] [INFO] ✔ Muvaffaqiyatli vektorlandi: 133-modda. Tijorat vakilligi
+[2026-06-05 12:30:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:20] [INFO] ✔ Muvaffaqiyatli vektorlandi: 134-modda. Ishonchnoma
+[2026-06-05 12:30:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:21] [INFO] ✔ Muvaffaqiyatli vektorlandi: 135-modda. Ishonchnomaning shakli
+[2026-06-05 12:30:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:22] [INFO] ✔ Muvaffaqiyatli vektorlandi: 136-modda. Notarial tasdiqlangan ishonchnomalarga tenglashtirilgan ishonchnomalar
+[2026-06-05 12:30:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:22] [INFO] ✔ Muvaffaqiyatli vektorlandi: 137-modda. Ishonchnomaning boshqa shakllari
+[2026-06-05 12:30:23] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:23] [INFO] ✔ Muvaffaqiyatli vektorlandi: 138-modda. Yuridik shaxsning ishonchnomasi
+[2026-06-05 12:30:23] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:23] [INFO] ✔ Muvaffaqiyatli vektorlandi: 139-modda. Ishonchnomaning muddati
+[2026-06-05 12:30:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:24] [INFO] ✔ Muvaffaqiyatli vektorlandi: 140-modda. Ishonchnoma boʻyicha vakolatlarni boshqa shaxsga berish (boshqa shaxsga oʻtkazish)
+[2026-06-05 12:30:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:25] [INFO] ✔ Muvaffaqiyatli vektorlandi: 141-modda. Ishonchnomaning bekor boʻlishi
+[2026-06-05 12:30:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:25] [INFO] ✔ Muvaffaqiyatli vektorlandi: 142-modda. Ishonchnomaning bekor boʻlganligi haqida shaxslarga xabar berish
+[2026-06-05 12:30:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:26] [INFO] ✔ Muvaffaqiyatli vektorlandi: 143-modda. Ishonchnoma olgan shaxsning ishonchnoma bekor boʻlganidan keyin qilgan harakatlari
+[2026-06-05 12:30:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:26] [INFO] ✔ Muvaffaqiyatli vektorlandi: 144-modda. Ishonchnomani qaytarish majburiyati
+[2026-06-05 12:30:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:27] [INFO] ✔ Muvaffaqiyatli vektorlandi: 145-modda. Muddat belgilash
+[2026-06-05 12:30:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:27] [INFO] ✔ Muvaffaqiyatli vektorlandi: 146-modda. Vaqt davri bilan belgilangan muddatning boshlanishi
+[2026-06-05 12:30:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:28] [INFO] ✔ Muvaffaqiyatli vektorlandi: 147-modda. Vaqt davri bilan belgilangan muddatning tamom boʻlishi
+[2026-06-05 12:30:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:28] [INFO] ✔ Muvaffaqiyatli vektorlandi: 148-modda. Muddatning oxirgi kunida harakatni amalga oshirish tartibi
+[2026-06-05 12:30:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 149-modda. Daʼvo muddati tushunchasi
+[2026-06-05 12:30:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 150-modda. Umumiy daʼvo muddati
+[2026-06-05 12:30:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 151-modda. Maxsus daʼvo muddatlari
+[2026-06-05 12:30:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 152-modda. Daʼvo muddatlarini oʻzgartirish toʻgʻrisidagi bitimning haqiqiy sanalmasligi
+[2026-06-05 12:30:30] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:30] [INFO] ✔ Muvaffaqiyatli vektorlandi: 153-modda. Daʼvo muddatini qoʻllash
+[2026-06-05 12:30:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 154-modda. Daʼvo muddatining oʻta boshlashi
+[2026-06-05 12:30:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 155-modda. Majburiyatdagi shaxslar almashinganida daʼvo muddati
+[2026-06-05 12:30:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:32] [INFO] ✔ Muvaffaqiyatli vektorlandi: 156-modda. Daʼvo muddati oʻtishining toʻxtatilishi
+[2026-06-05 12:30:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 157-modda. Daʼvo muddati oʻtishining uzilishi
+[2026-06-05 12:30:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 158-modda. Daʼvo koʻrilmasdan qoldirilgan taqdirda daʼvo muddatining oʻtishi
+[2026-06-05 12:30:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:34] [INFO] ✔ Muvaffaqiyatli vektorlandi: 159-modda. Daʼvo muddatini tiklash
+[2026-06-05 12:30:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:34] [INFO] ✔ Muvaffaqiyatli vektorlandi: 160-modda. Maxsus daʼvo muddatining toʻxtatilishi, uzilishi va tiklanishi
+[2026-06-05 12:30:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:34] [INFO] ✔ Muvaffaqiyatli vektorlandi: 161-modda. Daʼvo muddati oʻtganidan keyin majburiyatni bajarish
+[2026-06-05 12:30:35] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:35] [INFO] ✔ Muvaffaqiyatli vektorlandi: 162-modda. Qoʻshma talablarga nisbatan daʼvo muddatini qoʻllash
+[2026-06-05 12:30:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 163-modda. Daʼvo muddati joriy qilinmaydigan talablar
+[2026-06-05 12:30:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 164-modda. Mulk huquqi tushunchasi
+[2026-06-05 12:30:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 165-modda. Mulkdor boʻlmagan shaxslarning ashyoviy huquqlarining mazmuni
+[2026-06-05 12:30:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 166-modda. Mulkning daxlsizligi
+[2026-06-05 12:30:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 167-modda. Mulk shakllari
+[2026-06-05 12:30:38] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:38] [INFO] ✔ Muvaffaqiyatli vektorlandi: 168-modda. Mulk huquqining subyektlari
+[2026-06-05 12:30:38] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:38] [INFO] ✔ Muvaffaqiyatli vektorlandi: 169-modda. Mulk huquqining obyektlari
+[2026-06-05 12:30:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 170-modda. Yerga va boshqa tabiiy resurslarga boʻlgan mulk huquqi va oʻzga ashyoviy huquqlar
+[2026-06-05 12:30:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 171-modda. Uy-housing boʻlgan mulk huquqi va boshqa ashyoviy huquqlarni amalga oshirish xususiyatlari
+[2026-06-05 12:30:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 172-modda. Mulk huquqini amalga oshirish shartlari
+[2026-06-05 12:30:41] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:41] [INFO] ✔ Muvaffaqiyatli vektorlandi: 173-modda. Oʻzganing yer uchastkasidan cheklangan tarzda foydalanish (servitut) huquqi
+[2026-06-05 12:30:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1733-modda. Servitut uchun haq toʻlash
+[2026-06-05 12:30:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1734-modda. Servitut belgilangan yer uchastkasida muhandislik-kommunikatsiya tarmoqlari obyektlarini saqlash
+[2026-06-05 12:30:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:43] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1735-modda. Servitut belgilangan yer uchastkasini boʻlish
+[2026-06-05 12:30:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:43] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1736-modda. Servitutni oʻzgartirish va bekor qilish
+[2026-06-05 12:30:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:44] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1737-modda. Binolar, inshootlar va boshqa koʻchmas mulkka servitut belgilash
+[2026-06-05 12:30:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:44] [INFO] ✔ Muvaffaqiyatli vektorlandi: 174-modda. Mol-mulkni saqlash vazifasi
+[2026-06-05 12:30:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:44] [INFO] ✔ Muvaffaqiyatli vektorlandi: 175-modda. Mol-mulkning tasodifan nobud boʻlish yoki buzilish xavfi
+[2026-06-05 12:30:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:45] [INFO] ✔ Muvaffaqiyatli vektorlandi: 178-modda. Operativ boshqarish huquqi
+[2026-06-05 12:30:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:45] [INFO] ✔ Muvaffaqiyatli vektorlandi: 180-modda. Muassasa mol-mulkini tasarruf etish
+[2026-06-05 12:30:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:46] [INFO] ✔ Muvaffaqiyatli vektorlandi: 181-modda. Operativ boshqarish huquqining vujudga kelishi va bekor boʻlishi
+[2026-06-05 12:30:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:46] [INFO] ✔ Muvaffaqiyatli vektorlandi: 182-modda. Mulk huquqining vujudga kelish asoslari
+[2026-06-05 12:30:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 183-modda. Mulkni yaratish va koʻpaytirish
+[2026-06-05 12:30:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 184-modda. Bitim boʻyicha mol-mulkni olish
+[2026-06-05 12:30:48] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:48] [INFO] ✔ Muvaffaqiyatli vektorlandi: 185-modda. Shartnoma asosida mol-mulk oluvchida mulk huquqining vujudga kelish payti
+[2026-06-05 12:30:48] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:49] [INFO] ✔ Muvaffaqiyatli vektorlandi: 186-modda. Ashyolarni topshirish
+[2026-06-05 12:30:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:50] [INFO] ✔ Muvaffaqiyatli vektorlandi: 187-modda. Egalik qilish huquqini vujudga keltiruvchi muddat
+[2026-06-05 12:30:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:50] [INFO] ✔ Muvaffaqiyatli vektorlandi: 188-modda. Yer uchastkalariga boʻlgan mulk huquqi
+[2026-06-05 12:30:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:50] [INFO] ✔ Muvaffaqiyatli vektorlandi: 189-modda. Hamma yigʻib olishi mumkin boʻlgan ashyolarni mulkka aylantirish
+[2026-06-05 12:30:51] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:51] [INFO] ✔ Muvaffaqiyatli vektorlandi: 190-modda. Moddiy madaniy meros obyektlarini xoʻjasizlarcha saqlash
+[2026-06-05 12:30:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:52] [INFO] === VEKTOR BAZANI YARATISH VA YANGILASH BOSHLANDI ===
+[2026-06-05 12:30:52] [INFO] ✔ Muvaffaqiyatli vektorlandi: 191-modda. Egasiz ashyo
+[2026-06-05 12:30:53] [INFO] Eski ma'lumotlar tozalandi (Dublikatlarning oldini olish uchun).
+[2026-06-05 12:30:53] [INFO] 'dataset.json' faylidan 260 ta modda topildi. Ollama orqali vektorlash boshlanmoqda...
+[2026-06-05 12:30:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:53] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:30:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:54] [INFO] ✔ Muvaffaqiyatli vektorlandi: 261-modda. Jismoniy shaxsning toʻlovga qobiliyatsizligi
+[2026-06-05 12:30:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:54] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:30:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 27-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlarning muomala layoqati
+[2026-06-05 12:30:57] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:57] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:30:57] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:57] [INFO] ✔ Muvaffaqiyatli vektorlandi: 28-modda. Emansipatsiya
+[2026-06-05 12:30:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:58] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:30:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:30:59] [INFO] ✔ Muvaffaqiyatli vektorlandi: 29-modda. Oʻn toʻrt yoshga toʻlmagan voyaga yetmaganlarning muomala layoqati
+[2026-06-05 12:31:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:01] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:01] [INFO] ✔ Muvaffaqiyatli vektorlandi: 30-modda. Fuqaroni muomalaga layoqatsiz deb topish
+[2026-06-05 12:31:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:01] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:02] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:02] [INFO] ✔ Muvaffaqiyatli vektorlandi: 31-modda. Fuqaroning muomala layoqatini cheklash
+[2026-06-05 12:31:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:03] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:03] [INFO] ✔ Muvaffaqiyatli vektorlandi: 32-modda. Vasiylik va homiylik
+[2026-06-05 12:31:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:04] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:04] [INFO] ✔ Muvaffaqiyatli vektorlandi: 33-modda. Fuqaroni bedarak yoʻqolgan deb topish
+[2026-06-05 12:31:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:05] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:05] [INFO] ✔ Muvaffaqiyatli vektorlandi: 34-modda. Fuqaroni bedarak yoʻqolgan deb topish oqibatlari
+[2026-06-05 12:31:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:06] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:06] [INFO] ✔ Muvaffaqiyatli vektorlandi: 35-modda. Fuqaroni bedarak yoʻqolgan deb topish haqidagi qarorning bekor qilinishi
+[2026-06-05 12:31:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:06] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:07] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:07] [INFO] ✔ Muvaffaqiyatli vektorlandi: 36-modda. Fuqaroni vafot etgan deb eʼlon qilish
+[2026-06-05 12:31:08] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:08] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 37-modda. Vafot etgan deb eʼlon qilingan fuqaro qaytib kelishining oqibatlari
+[2026-06-05 12:31:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:09] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 38-modda. Fuqarolik holati hujjatlarini qayd etish
+[2026-06-05 12:31:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:11] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:12] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:12] [INFO] ✔ Muvaffaqiyatli vektorlandi: 39-modda. Yuridik shaxs tushunchasi
+[2026-06-05 12:31:14] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:14] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 40-modda. Yuridik shaxslarning turlari
+[2026-06-05 12:31:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:15] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:16] [INFO] ✔ Muvaffaqiyatli vektorlandi: 41-modda. Yuridik shaxsning huquq layoqati
+[2026-06-05 12:31:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:16] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:17] [INFO] ✔ Muvaffaqiyatli vektorlandi: 42-modda. Yuridik shaxslarning vujudga kelishi
+[2026-06-05 12:31:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:17] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:19] [INFO] ✔ Muvaffaqiyatli vektorlandi: 43-modda. Yuridik shaxsning taʼsis hujjatlari
+[2026-06-05 12:31:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:19] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:20] [INFO] ✔ Muvaffaqiyatli vektorlandi: 45-modda. Yuridik shaxsning organlari
+[2026-06-05 12:31:21] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:21] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:22] [INFO] ✔ Muvaffaqiyatli vektorlandi: 46-modda. Yuridik shaxsning nomi va joylashgan yeri
+[2026-06-05 12:31:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:24] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:25] [INFO] ✔ Muvaffaqiyatli vektorlandi: 47-modda. Vakolatxonalar va filiallar
+[2026-06-05 12:31:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:25] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:28] [INFO] ✔ Muvaffaqiyatli vektorlandi: 48-modda. Yuridik shaxsning javobgarligi
+[2026-06-05 12:31:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:29] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 49-modda. Yuridik shaxsni qayta tashkil etish
+[2026-06-05 12:31:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:32] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 50-modda. Yuridik shaxslarni qayta tashkil etishda huquqiy vorislik
+[2026-06-05 12:31:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:34] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:35] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 51-modda. Topshirish hujjati va taqsimlash balansi
+[2026-06-05 12:31:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:37] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 52-modda. Yuridik shaxs qayta tashkil etilganida kreditorlar huquqlarining kafolatlari
+[2026-06-05 12:31:38] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:38] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:40] [INFO] ✔ Muvaffaqiyatli vektorlandi: 53-modda. Yuridik shaxsni tugatish
+[2026-06-05 12:31:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:40] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:41] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 54-modda. Yuridik shaxsni tugatish toʻgʻrisida qaror qabul qilgan shaxsning burchlari
+[2026-06-05 12:31:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:42] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:45] [INFO] ✔ Muvaffaqiyatli vektorlandi: 55-modda. Yuridik shaxsni tugatish tartibi
+[2026-06-05 12:31:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:46] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 56-modda. Kreditorlarning talablarini qanoatlantirish
+[2026-06-05 12:31:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:47] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:48] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:48] [INFO] ✔ Muvaffaqiyatli vektorlandi: 57-modda. Yuridik shaxsning toʻlovga qobiliyatsizligi
+[2026-06-05 12:31:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:49] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:52] [INFO] ✔ Muvaffaqiyatli vektorlandi: 58-modda. Xoʻjalik shirkatlari va jamiyatlari toʻgʻrisidagi asosiy qoidalar
+[2026-06-05 12:31:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:54] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:55] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:55] [INFO] ✔ Muvaffaqiyatli vektorlandi: 59-modda. Xoʻjalik shirkati yoki jamiyati ishtirokchilarining huquq va burchlari
+[2026-06-05 12:31:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:56] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 60-modda. Toʻliq shirkat
+[2026-06-05 12:31:57] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:57] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:31:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:31:59] [INFO] ✔ Muvaffaqiyatli vektorlandi: 61-modda. Kommandit shirkat
+[2026-06-05 12:32:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:00] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:01] [INFO] ✔ Muvaffaqiyatli vektorlandi: 62-modda. Masʼuliyati cheklangan jamiyat
+[2026-06-05 12:32:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:01] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:02] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:02] [INFO] ✔ Muvaffaqiyatli vektorlandi: 64-modda. Aksiyadorlik jamiyati
+[2026-06-05 12:32:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:03] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:05] [INFO] ✔ Muvaffaqiyatli vektorlandi: 67-modda. Shuʼba xoʻjalik jamiyati
+[2026-06-05 12:32:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:06] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:07] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:07] [INFO] ✔ Muvaffaqiyatli vektorlandi: 68-modda. Qaram xoʻjalik jamiyati
+[2026-06-05 12:32:07] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:07] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 69-modda. Ishlab chiqarish kooperativlari
+[2026-06-05 12:32:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:09] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 73-modda. Matlubot kooperativi
+[2026-06-05 12:32:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:11] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 74-modda. Jamoat birlashmalari
+[2026-06-05 12:32:12] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:12] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:14] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:14] [INFO] ✔ Muvaffaqiyatli vektorlandi: 75-modda. Jamoat fondsari
+[2026-06-05 12:32:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:15] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 76-modda. Muassasalar
+[2026-06-05 12:32:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:15] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:17] [INFO] ✔ Muvaffaqiyatli vektorlandi: 77-modda. Yuridik shaxslar birlashmalari
+[2026-06-05 12:32:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:17] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:17] [INFO] ✔ Muvaffaqiyatli vektorlandi: 78-modda. Fuqarolarning oʻzini oʻzi boshqarish organlari
+[2026-06-05 12:32:18] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:18] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:18] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:18] [INFO] ✔ Muvaffaqiyatli vektorlandi: 79-modda. Davlatning fuqarolik-huquqiy munosabatlarda ishtirok etishi
+[2026-06-05 12:32:18] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:18] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:19] [INFO] ✔ Muvaffaqiyatli vektorlandi: 80-modda. Davlat va yuridik shaxslar javobgarligining farqlab qoʻyilishi
+[2026-06-05 12:32:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:19] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:20] [INFO] ✔ Muvaffaqiyatli vektorlandi: 81-modda. Fuqarolik huquqlari obyektlarining turlari
+[2026-06-05 12:32:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:20] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:21] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:21] [INFO] ✔ Muvaffaqiyatli vektorlandi: 82-modda. Fuqarolik huquqlari obyektlarining muomalada boʻlishi
+[2026-06-05 12:32:21] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:21] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:22] [INFO] ✔ Muvaffaqiyatli vektorlandi: 83-modda. Mol-mulkning turlari
+[2026-06-05 12:32:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:22] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:23] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:23] [INFO] ✔ Muvaffaqiyatli vektorlandi: 84-modda. Koʻchmas mol-mulkni davlat roʻyxatidan oʻtkazish
+[2026-06-05 12:32:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:24] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:24] [INFO] ✔ Muvaffaqiyatli vektorlandi: 85-modda. Korxona
+[2026-06-05 12:32:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:25] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:25] [INFO] ✔ Muvaffaqiyatli vektorlandi: 86-modda. Ashyolarning tasnifi
+[2026-06-05 12:32:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:26] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:27] [INFO] ✔ Muvaffaqiyatli vektorlandi: 87-modda. Xususiy va turga xos alomatlari bilan belgilanadigan ashyolar
+[2026-06-05 12:32:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:27] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:28] [INFO] ✔ Muvaffaqiyatli vektorlandi: 88-modda. Boʻlinadigan va boʻlinmaydigan ashyolar
+[2026-06-05 12:32:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:28] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 89-modda. Isteʼmol qilinadigan va isteʼmol qilinmaydigan ashyolar
+[2026-06-05 12:32:30] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:30] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:30] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:30] [INFO] ✔ Muvaffaqiyatli vektorlandi: 90-modda. Asosiy va mansub ashyolar
+[2026-06-05 12:32:30] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:30] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 91-modda. Murakkab ashyolar
+[2026-06-05 12:32:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:31] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 92-modda. Hosil va daromadlarga boʻlgan huquq
+[2026-06-05 12:32:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:32] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:32] [INFO] ✔ Muvaffaqiyatli vektorlandi: 93-modda. Hayvonlar
+[2026-06-05 12:32:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:32] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 94-modda. Pul (valyuta)
+[2026-06-05 12:32:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:33] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 95-modda. Valyuta qimmatliklari
+[2026-06-05 12:32:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:34] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:34] [INFO] ✔ Muvaffaqiyatli vektorlandi: 96-modda. Qimmatli qogʻozlar
+[2026-06-05 12:32:35] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:35] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 97-modda. Intellektual faoliyat natijalari
+[2026-06-05 12:32:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:37] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 98-modda. Xizmat va tijorat siri
+[2026-06-05 12:32:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:37] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:38] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:38] [INFO] ✔ Muvaffaqiyatli vektorlandi: 99-modda. Shaxsiy nomulkiy huquqlar va boshqa nomoddiy neʼmatlar
+[2026-06-05 12:32:38] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:38] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:40] [INFO] ✔ Muvaffaqiyatli vektorlandi: 100-modda. Shaʼn, qadr-qimmat va ishchanlik obroʻsini himoya qilish
+[2026-06-05 12:32:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:43] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:43] [INFO] ✔ Muvaffaqiyatli vektorlandi: 101-modda. Bitimlar tushunchasi
+[2026-06-05 12:32:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:43] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:44] [INFO] ✔ Muvaffaqiyatli vektorlandi: 102-modda. Bitim turlari
+[2026-06-05 12:32:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:44] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:44] [INFO] ✔ Muvaffaqiyatli vektorlandi: 103-modda. Bir taraflama bitimlarni huquqiy tartibga solish
+[2026-06-05 12:32:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:44] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:45] [INFO] ✔ Muvaffaqiyatli vektorlandi: 104-modda. Shartli bitimlar
+[2026-06-05 12:32:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:45] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:46] [INFO] ✔ Muvaffaqiyatli vektorlandi: 105-modda. Bitimlarning shakli
+[2026-06-05 12:32:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:46] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 106-modda. Bitimning ogʻzaki shakli
+[2026-06-05 12:32:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:47] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:49] [INFO] ✔ Muvaffaqiyatli vektorlandi: 107-modda. Bitimning yozma shakli
+[2026-06-05 12:32:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:49] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:49] [INFO] ✔ Muvaffaqiyatli vektorlandi: 108-modda. Bitimning oddiy yozma shakli
+[2026-06-05 12:32:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:50] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:50] [INFO] ✔ Muvaffaqiyatli vektorlandi: 109-modda. Bitimning oddiy yozma shakliga rioya qilmaslik oqibatlari
+[2026-06-05 12:32:51] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:51] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:51] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:51] [INFO] ✔ Muvaffaqiyatli vektorlandi: 110-modda. Bitimlarni notarial tasdiqlash
+[2026-06-05 12:32:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:52] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:52] [INFO] ✔ Muvaffaqiyatli vektorlandi: 111-modda. Bitimlarni davlat roʻyxatidan oʻtkazish
+[2026-06-05 12:32:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:53] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:54] [INFO] ✔ Muvaffaqiyatli vektorlandi: 112-modda. Bitimning notarial shakliga va uni roʻyxatdan oʻtkazish talabiga rioya qilmaslikning oqibatlari
+[2026-06-05 12:32:55] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:55] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 113-modda. Nizoli va oʻz-oʻzidan haqiqiy boʻlmagan bitimlar
+[2026-06-05 12:32:57] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:57] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:32:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:32:59] [INFO] ✔ Muvaffaqiyatli vektorlandi: 114-modda. Bitimlar haqiqiy emasligining oqibatlari toʻgʻrisidagi umumiy qoidalar
+[2026-06-05 12:33:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:00] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:00] [INFO] ✔ Muvaffaqiyatli vektorlandi: 115-modda. Bitimning qonun talab qiladigan shakliga rioya etmaslik
+[2026-06-05 12:33:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:01] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:01] [INFO] ✔ Muvaffaqiyatli vektorlandi: 116-modda. Qonunchilikning talablariga muvofiq boʻlmagan bitimning haqiqiy emasligi
+[2026-06-05 12:33:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:03] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:03] [INFO] ✔ Muvaffaqiyatli vektorlandi: 117-modda. Oʻn toʻrt yoshga toʻlmagan shaxs tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:33:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:04] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:04] [INFO] ✔ Muvaffaqiyatli vektorlandi: 118-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmagan shaxs tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:33:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:05] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:06] [INFO] ✔ Muvaffaqiyatli vektorlandi: 119-modda. Muomalaga layoqatsiz deb topilgan fuqaro tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:33:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:06] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:07] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:07] [INFO] ✔ Muvaffaqiyatli vektorlandi: 120-modda. Muomala layoqati cheklangan fuqaro tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:33:08] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:08] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 121-modda. Oʻz harakatlarining ahamiyatini tushuna olmaydigan yoki ularni boshqara olmaydigan fuqaro tomonidan tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:33:10] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:10] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 122-modda. Yanglishish taʼsirida tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:33:13] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:13] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:14] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:14] [INFO] ✔ Muvaffaqiyatli vektorlandi: 123-modda. Aldash, zoʻrlik, qoʻrqitish, bir taraf vakilining ikkinchi taraf bilan yomon niyatda kelishishi yoki ogʻir holatlar yuz berishi taʼsirida tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:33:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:16] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:16] [INFO] ✔ Muvaffaqiyatli vektorlandi: 124-modda. Qalbaki va koʻzboʻyamachilik uchun tuzilgan bitimning haqiqiy emasligi
+[2026-06-05 12:33:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:17] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:18] [INFO] ✔ Muvaffaqiyatli vektorlandi: 125-modda. Yuridik shaxs huquqiy layoqatidan tashqariga chiqadigan bitimning haqiqiy emasligi
+[2026-06-05 12:33:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:19] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:19] [INFO] ✔ Muvaffaqiyatli vektorlandi: 126-modda. Bitim tuzish vakolatlarini cheklash oqibatlari
+[2026-06-05 12:33:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:20] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:20] [INFO] ✔ Muvaffaqiyatli vektorlandi: 127-modda. Bitimning haqiqiy emas deb hisoblanish payti
+[2026-06-05 12:33:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:20] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:21] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:21] [INFO] ✔ Muvaffaqiyatli vektorlandi: 128-modda. Bitimning bir qismi haqiqiy emasligining oqibatlari
+[2026-06-05 12:33:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:22] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:23] [INFO] ✔ Muvaffaqiyatli vektorlandi: 129-modda. Vakillik
+[2026-06-05 12:33:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:24] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:24] [INFO] ✔ Muvaffaqiyatli vektorlandi: 130-modda. Muomalaga layoqatli shaxslar nomidan vakillik qilish
+[2026-06-05 12:33:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:25] [ERROR] ❌ Moddani yuklashda xatolik: Error getting collection: Collection [9a48f7ea-f2e6-4d0d-90e7-8636e0b37209] does not exist.
+[2026-06-05 12:33:25] [INFO] ==================================================
+[2026-06-05 12:33:25] [INFO] ✅ BARCHA MA'LUMOTLAR VEKTOR BAZAGA MUHRLANDI!
+[2026-06-05 12:33:25] [INFO] Endi 'main.py' orqali chatbotni ishga tushirsangiz bo'ladi.
+[2026-06-05 12:33:25] [INFO] ==================================================
+[2026-06-05 12:33:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:25] [INFO] ✔ Muvaffaqiyatli vektorlandi: 131-modda. Muomalaga layoqatsiz shaxslar nomidan vakillik qilish
+[2026-06-05 12:33:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:25] [INFO] ✔ Muvaffaqiyatli vektorlandi: 132-modda. Vakolatsiz vakillik
+[2026-06-05 12:33:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:26] [INFO] ✔ Muvaffaqiyatli vektorlandi: 133-modda. Tijorat vakilligi
+[2026-06-05 12:33:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:27] [INFO] ✔ Muvaffaqiyatli vektorlandi: 134-modda. Ishonchnoma
+[2026-06-05 12:33:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:27] [INFO] ✔ Muvaffaqiyatli vektorlandi: 135-modda. Ishonchnomaning shakli
+[2026-06-05 12:33:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:28] [INFO] ✔ Muvaffaqiyatli vektorlandi: 136-modda. Notarial tasdiqlangan ishonchnomalarga tenglashtirilgan ishonchnomalar
+[2026-06-05 12:33:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 137-modda. Ishonchnomaning boshqa shakllari
+[2026-06-05 12:33:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 138-modda. Yuridik shaxsning ishonchnomasi
+[2026-06-05 12:33:30] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:30] [INFO] ✔ Muvaffaqiyatli vektorlandi: 139-modda. Ishonchnomaning muddati
+[2026-06-05 12:33:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 140-modda. Ishonchnoma boʻyicha vakolatlarni boshqa shaxsga berish (boshqa shaxsga oʻtkazish)
+[2026-06-05 12:33:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:32] [INFO] ✔ Muvaffaqiyatli vektorlandi: 141-modda. Ishonchnomaning bekor boʻlishi
+[2026-06-05 12:33:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 142-modda. Ishonchnomaning bekor boʻlganligi haqida shaxslarga xabar berish
+[2026-06-05 12:33:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 143-modda. Ishonchnoma olgan shaxsning ishonchnoma bekor boʻlganidan keyin qilgan harakatlari
+[2026-06-05 12:33:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:34] [INFO] ✔ Muvaffaqiyatli vektorlandi: 144-modda. Ishonchnomani qaytarish majburiyati
+[2026-06-05 12:33:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:34] [INFO] ✔ Muvaffaqiyatli vektorlandi: 145-modda. Muddat belgilash
+[2026-06-05 12:33:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:34] [INFO] ✔ Muvaffaqiyatli vektorlandi: 146-modda. Vaqt davri bilan belgilangan muddatning boshlanishi
+[2026-06-05 12:33:35] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:35] [INFO] ✔ Muvaffaqiyatli vektorlandi: 147-modda. Vaqt davri bilan belgilangan muddatning tamom boʻlishi
+[2026-06-05 12:33:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 148-modda. Muddatning oxirgi kunida harakatni amalga oshirish tartibi
+[2026-06-05 12:33:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 149-modda. Daʼvo muddati tushunchasi
+[2026-06-05 12:33:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 150-modda. Umumiy daʼvo muddati
+[2026-06-05 12:33:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 151-modda. Maxsus daʼvo muddatlari
+[2026-06-05 12:33:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 152-modda. Daʼvo muddatlarini oʻzgartirish toʻgʻrisidagi bitimning haqiqiy sanalmasligi
+[2026-06-05 12:33:38] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:38] [INFO] ✔ Muvaffaqiyatli vektorlandi: 153-modda. Daʼvo muddatini qoʻllash
+[2026-06-05 12:33:38] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 154-modda. Daʼvo muddatining oʻta boshlashi
+[2026-06-05 12:33:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 155-modda. Majburiyatdagi shaxslar almashinganida daʼvo muddati
+[2026-06-05 12:33:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:40] [INFO] ✔ Muvaffaqiyatli vektorlandi: 156-modda. Daʼvo muddati oʻtishining toʻxtatilishi
+[2026-06-05 12:33:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:40] [INFO] ✔ Muvaffaqiyatli vektorlandi: 157-modda. Daʼvo muddati oʻtishining uzilishi
+[2026-06-05 12:33:41] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:41] [INFO] ✔ Muvaffaqiyatli vektorlandi: 158-modda. Daʼvo koʻrilmasdan qoldirilgan taqdirda daʼvo muddatining oʻtishi
+[2026-06-05 12:33:41] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:41] [INFO] ✔ Muvaffaqiyatli vektorlandi: 159-modda. Daʼvo muddatini tiklash
+[2026-06-05 12:33:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 160-modda. Maxsus daʼvo muddatining toʻxtatilishi, uzilishi va tiklanishi
+[2026-06-05 12:33:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 161-modda. Daʼvo muddati oʻtganidan keyin majburiyatni bajarish
+[2026-06-05 12:33:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:43] [INFO] ✔ Muvaffaqiyatli vektorlandi: 162-modda. Qoʻshma talablarga nisbatan daʼvo muddatini qoʻllash
+[2026-06-05 12:33:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:44] [INFO] ✔ Muvaffaqiyatli vektorlandi: 163-modda. Daʼvo muddati joriy qilinmaydigan talablar
+[2026-06-05 12:33:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:44] [INFO] ✔ Muvaffaqiyatli vektorlandi: 164-modda. Mulk huquqi tushunchasi
+[2026-06-05 12:33:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:45] [INFO] ✔ Muvaffaqiyatli vektorlandi: 165-modda. Mulkdor boʻlmagan shaxslarning ashyoviy huquqlarining mazmuni
+[2026-06-05 12:33:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:46] [INFO] ✔ Muvaffaqiyatli vektorlandi: 166-modda. Mulkning daxlsizligi
+[2026-06-05 12:33:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:46] [INFO] ✔ Muvaffaqiyatli vektorlandi: 167-modda. Mulk shakllari
+[2026-06-05 12:33:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:46] [INFO] ✔ Muvaffaqiyatli vektorlandi: 168-modda. Mulk huquqining subyektlari
+[2026-06-05 12:33:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 169-modda. Mulk huquqining obyektlari
+[2026-06-05 12:33:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 170-modda. Yerga va boshqa tabiiy resurslarga boʻlgan mulk huquqi va oʻzga ashyoviy huquqlar
+[2026-06-05 12:33:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 171-modda. Uy-housing boʻlgan mulk huquqi va boshqa ashyoviy huquqlarni amalga oshirish xususiyatlari
+[2026-06-05 12:33:48] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:48] [INFO] ✔ Muvaffaqiyatli vektorlandi: 172-modda. Mulk huquqini amalga oshirish shartlari
+[2026-06-05 12:33:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:50] [INFO] ✔ Muvaffaqiyatli vektorlandi: 173-modda. Oʻzganing yer uchastkasidan cheklangan tarzda foydalanish (servitut) huquqi
+[2026-06-05 12:33:51] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:51] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1733-modda. Servitut uchun haq toʻlash
+[2026-06-05 12:33:51] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:51] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1734-modda. Servitut belgilangan yer uchastkasida muhandislik-kommunikatsiya tarmoqlari obyektlarini saqlash
+[2026-06-05 12:33:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:52] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1735-modda. Servitut belgilangan yer uchastkasini boʻlish
+[2026-06-05 12:33:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:52] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1736-modda. Servitutni oʻzgartirish va bekor qilish
+[2026-06-05 12:33:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:53] [INFO] ✔ Muvaffaqiyatli vektorlandi: 1737-modda. Binolar, inshootlar va boshqa koʻchmas mulkka servitut belgilash
+[2026-06-05 12:33:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:53] [INFO] ✔ Muvaffaqiyatli vektorlandi: 174-modda. Mol-mulkni saqlash vazifasi
+[2026-06-05 12:33:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:53] [INFO] ✔ Muvaffaqiyatli vektorlandi: 175-modda. Mol-mulkning tasodifan nobud boʻlish yoki buzilish xavfi
+[2026-06-05 12:33:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:54] [INFO] ✔ Muvaffaqiyatli vektorlandi: 178-modda. Operativ boshqarish huquqi
+[2026-06-05 12:33:55] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:55] [INFO] ✔ Muvaffaqiyatli vektorlandi: 180-modda. Muassasa mol-mulkini tasarruf etish
+[2026-06-05 12:33:55] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:55] [INFO] ✔ Muvaffaqiyatli vektorlandi: 181-modda. Operativ boshqarish huquqining vujudga kelishi va bekor boʻlishi
+[2026-06-05 12:33:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 182-modda. Mulk huquqining vujudga kelish asoslari
+[2026-06-05 12:33:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:56] [INFO] ✔ Muvaffaqiyatli vektorlandi: 183-modda. Mulkni yaratish va koʻpaytirish
+[2026-06-05 12:33:57] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:57] [INFO] ✔ Muvaffaqiyatli vektorlandi: 184-modda. Bitim boʻyicha mol-mulkni olish
+[2026-06-05 12:33:57] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:57] [INFO] ✔ Muvaffaqiyatli vektorlandi: 185-modda. Shartnoma asosida mol-mulk oluvchida mulk huquqining vujudga kelish payti
+[2026-06-05 12:33:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:33:58] [INFO] ✔ Muvaffaqiyatli vektorlandi: 186-modda. Ashyolarni topshirish
+[2026-06-05 12:34:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:00] [INFO] ✔ Muvaffaqiyatli vektorlandi: 187-modda. Egalik qilish huquqini vujudga keltiruvchi muddat
+[2026-06-05 12:34:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:00] [INFO] ✔ Muvaffaqiyatli vektorlandi: 188-modda. Yer uchastkalariga boʻlgan mulk huquqi
+[2026-06-05 12:34:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:00] [INFO] ✔ Muvaffaqiyatli vektorlandi: 189-modda. Hamma yigʻib olishi mumkin boʻlgan ashyolarni mulkka aylantirish
+[2026-06-05 12:34:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:01] [INFO] ✔ Muvaffaqiyatli vektorlandi: 190-modda. Moddiy madaniy meros obyektlarini xoʻjasizlarcha saqlash
+[2026-06-05 12:34:02] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:02] [INFO] ✔ Muvaffaqiyatli vektorlandi: 191-modda. Egasiz ashyo
+[2026-06-05 12:34:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:04] [INFO] ✔ Muvaffaqiyatli vektorlandi: 192-modda. Topilma
+[2026-06-05 12:34:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:04] [INFO] ✔ Muvaffaqiyatli vektorlandi: 193-modda. Topilmaga egalik huquqini olish
+[2026-06-05 12:34:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:06] [INFO] ✔ Muvaffaqiyatli vektorlandi: 194-modda. Topilma bilan bogʻliq xarajatlarni toʻlash va ashyoni topib olgan shaxsni taqdirlash
+[2026-06-05 12:34:07] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:07] [INFO] ✔ Muvaffaqiyatli vektorlandi: 195-modda. Qarovsiz hayvonlar
+[2026-06-05 12:34:08] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:08] [INFO] ✔ Muvaffaqiyatli vektorlandi: 196-modda. Xazina
+[2026-06-05 12:34:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 197-modda. Mulk huquqining bekor boʻlish asoslari
+[2026-06-05 12:34:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:10] [INFO] ✔ Muvaffaqiyatli vektorlandi: 198-modda. Mol-mulkni tugatish va hisobdan chiqarish
+[2026-06-05 12:34:10] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:10] [INFO] ✔ Muvaffaqiyatli vektorlandi: 199-modda. Mol-mulkni mulkdordan olib qoʻyish
+[2026-06-05 12:34:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 200-modda. Qarzni nizosiz tartibda undirib olish
+[2026-06-05 12:34:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 201-modda. Qimmatbaho metallar va toshlarga mulk huquqining vujudga kelish hamda bekor boʻlish xususiyatlari
+[2026-06-05 12:34:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 202-modda. Natsionalizatsiya
+[2026-06-05 12:34:12] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:12] [INFO] ✔ Muvaffaqiyatli vektorlandi: 203-modda. Rekvizitsiya
+[2026-06-05 12:34:12] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:12] [INFO] ✔ Muvaffaqiyatli vektorlandi: 204-modda. Musodara
+[2026-06-05 12:34:13] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:13] [INFO] ✔ Muvaffaqiyatli vektorlandi: 205-modda. Mol-mulkni olib qoʻyish chogʻida uning qiymatini aniqlash va zararlarni undirib olish huquqi
+[2026-06-05 12:34:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 206-modda. Mulkdorning mol-mulkini bevosita olib qoʻyishga qaratmagan holda mulk huquqining bekor qilinishi
+[2026-06-05 12:34:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 207-modda. Xususiy mulk huquqi
+[2026-06-05 12:34:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 208-modda. Xususiy mulk huquqining subyektlari
+[2026-06-05 12:34:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:16] [INFO] ✔ Muvaffaqiyatli vektorlandi: 209-modda. Xususiy mulk huquqining obyektlari
+[2026-06-05 12:34:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:16] [INFO] ✔ Muvaffaqiyatli vektorlandi: 210-modda. Uy-joy (kvartira)ga mulk huquqining vujudga kelish tartibi
+[2026-06-05 12:34:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:18] [INFO] ✔ Muvaffaqiyatli vektorlandi: 211-modda. Koʻp kvartirali uydagi turar joylar va yashash uchun moʻljallanmagan joylar mulkdorlarining umumiy mol-mulki
+[2026-06-05 12:34:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:19] [INFO] ✔ Muvaffaqiyatli vektorlandi: 212-modda. Oʻzboshimchalik bilan imorat qurish va uning oqibatlari
+[2026-06-05 12:34:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:19] [INFO] ✔ Muvaffaqiyatli vektorlandi: 213-modda. Ommaviy mulk tushunchasi
+[2026-06-05 12:34:21] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:21] [INFO] ✔ Muvaffaqiyatli vektorlandi: 214-modda. Respublika mulki
+[2026-06-05 12:34:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:22] [INFO] ✔ Muvaffaqiyatli vektorlandi: 215-modda. Munitsipal mulk
+[2026-06-05 12:34:23] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:23] [INFO] ✔ Muvaffaqiyatli vektorlandi: 216-modda. Umumiy mulk tushunchasi va uning vujudga kelish asoslari
+[2026-06-05 12:34:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:24] [INFO] ✔ Muvaffaqiyatli vektorlandi: 217-modda. Ulushli mulkdagi ulushlarni aniqlash
+[2026-06-05 12:34:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:24] [INFO] ✔ Muvaffaqiyatli vektorlandi: 218-modda. Ulushli mulkdagi mol-mulkni tasarruf etish
+[2026-06-05 12:34:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:25] [INFO] ✔ Muvaffaqiyatli vektorlandi: 219-modda. Ulushli mulkdagi umumiy mol-mulkka egalik qilish va undan foydalanish
+[2026-06-05 12:34:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:25] [INFO] ✔ Muvaffaqiyatli vektorlandi: 220-modda. Ulushli mulkdagi mol-mulkdan foydalanish natijasida keladigan hosil, mahsulot va daromadlar
+[2026-06-05 12:34:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:26] [INFO] ✔ Muvaffaqiyatli vektorlandi: 221-modda. Umumiy ulushli mulkdagi mol-mulkni saqlash xarajatlarini taqsimlash
+[2026-06-05 12:34:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:26] [INFO] ✔ Muvaffaqiyatli vektorlandi: 222-modda. Umumiy mulk huquqidagi ulushning shartnoma boʻyicha oluvchiga oʻtish payti
+[2026-06-05 12:34:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:28] [INFO] ✔ Muvaffaqiyatli vektorlandi: 223-modda. Ulushli mulkdagi mol-mulkni taqsimlash va undan ulush ajratish
+[2026-06-05 12:34:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 224-modda. Imtiyozli sotib olish huquqi
+[2026-06-05 12:34:30] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 225-modda. Birgalikdagi mulk boʻlgan mol-mulkka egalik qilish, undan foydalanish va uni tasarruf etish
+[2026-06-05 12:34:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:31] [INFO] ✔ Muvaffaqiyatli vektorlandi: 226-modda. Birgalikdagi mulk boʻlgan mol-mulkni taqsimlash va undan ulush ajratish
+[2026-06-05 12:34:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:32] [INFO] ✔ Muvaffaqiyatli vektorlandi: 227-modda. Undiruvni umumiy mol-mulkdagi ulushga qaratish
+[2026-06-05 12:34:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:32] [INFO] ✔ Muvaffaqiyatli vektorlandi: 228-modda. Mol-mulkni boshqa shaxsning qonunsiz egaligidan talab qilib olish (vindikatsiya)
+[2026-06-05 12:34:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 229-modda. Mol-mulkni insofli egallovchidan talab qilib olish
+[2026-06-05 12:34:35] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:35] [INFO] ✔ Muvaffaqiyatli vektorlandi: 230-modda. Mol-mulk boshqa shaxsning qonunsiz egaligidan talab qilib olinganda daromadlar va xarajatlarni toʻlash
+[2026-06-05 12:34:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 231-modda. Mulkdorning huquqlarini egalik qilishdan mahrum etish bilan bogʻliq boʻlmagan huquq-buzarliklardan himoya qilish (negator daʼvo)
+[2026-06-05 12:34:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:36] [INFO] ✔ Muvaffaqiyatli vektorlandi: 232-modda. Mulkdor boʻlmagan eganing huquqlarini himoya qilish
+[2026-06-05 12:34:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 233-modda. Mulk huquqining qonunga muvofiq bekor boʻlish oqibatlari
+[2026-06-05 12:34:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:37] [INFO] ✔ Muvaffaqiyatli vektorlandi: 234-modda. Majburiyat tushunchasi va uning vujudga kelish asoslari
+[2026-06-05 12:34:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 235-modda. Majburiyatning taraflari
+[2026-06-05 12:34:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 236-modda. Umumiy qoidalar
+[2026-06-05 12:34:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:39] [INFO] ✔ Muvaffaqiyatli vektorlandi: 237-modda. Majburiyatni bajarishdan bir tomonlama bosh tortishga yoʻl qoʻyilmasligi
+[2026-06-05 12:34:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:40] [INFO] ✔ Muvaffaqiyatli vektorlandi: 238-modda. Majburiyatning kelishilgan va maqbul usulda bajarilishi
+[2026-06-05 12:34:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:40] [INFO] ✔ Muvaffaqiyatli vektorlandi: 239-modda. Majburiyatning qismlarga boʻlib bajarilishi
+[2026-06-05 12:34:41] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:41] [INFO] ✔ Muvaffaqiyatli vektorlandi: 240-modda. Majburiyatning tegishli shaxs uchun bajarilishi
+[2026-06-05 12:34:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 241-modda. Majburiyatni bajarishni uchinchi shaxs zimmasiga yuklash
+[2026-06-05 12:34:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:42] [INFO] ✔ Muvaffaqiyatli vektorlandi: 242-modda. Majburiyatni bajarish vaqti / muddati
+[2026-06-05 12:34:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:43] [INFO] ✔ Muvaffaqiyatli vektorlandi: 243-modda. Majburiyatni muddatidan ilgari bajarish
+[2026-06-05 12:34:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:43] [INFO] ✔ Muvaffaqiyatli vektorlandi: 244-modda. Majburiyatni bajarishni kechiktirish yoki uni boʻlib-boʻlib bajarish
+[2026-06-05 12:34:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:44] [INFO] ✔ Muvaffaqiyatli vektorlandi: 245-modda. Pul majburiyatlarining valyutasi
+[2026-06-05 12:34:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:45] [INFO] ✔ Muvaffaqiyatli vektorlandi: 246-modda. Majburiyatni bajarish joyi
+[2026-06-05 12:34:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:46] [INFO] ✔ Muvaffaqiyatli vektorlandi: 247-modda. Fuqaroning taʼminoti uchun toʻlanadigan summani koʻpaytirish
+[2026-06-05 12:34:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:47] [INFO] ✔ Muvaffaqiyatli vektorlandi: 248-modda. Pul majburiyati boʻyicha talablarni qondirish navbati
+[2026-06-05 12:34:48] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:48] [INFO] ✔ Muvaffaqiyatli vektorlandi: 249-modda. Qarzni depozitga qoʻyish yoʻli bilan majburiyatni bajarish
+[2026-06-05 12:34:48] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:48] [INFO] ✔ Muvaffaqiyatli vektorlandi: 250-modda. Muqobil majburiyatni bajarish
+[2026-06-05 12:34:48] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:48] [INFO] ✔ Muvaffaqiyatli vektorlandi: 251-modda. Bir necha kreditor yoki bir necha qarzdor ishtirok etadigan majburiyatni bajarish
+[2026-06-05 12:34:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:49] [INFO] ✔ Muvaffaqiyatli vektorlandi: 252-modda. Solidar qarzdorlar majburiyati boʻyicha kreditorning huquqlari
+[2026-06-05 12:34:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:49] [INFO] ✔ Muvaffaqiyatli vektorlandi: 253-modda. Solidar qarzdorlarning kreditor talablariga qarshi eʼtirozlari
+[2026-06-05 12:34:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:50] [INFO] ✔ Muvaffaqiyatli vektorlandi: 254-modda. Solidar majburiyatning qarzdorlardan biri tomonidan bajarilishi
+[2026-06-05 12:34:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:51] [INFO] ✔ Muvaffaqiyatli vektorlandi: 255-modda. Solidar talablar
+[2026-06-05 12:34:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:52] [INFO] ✔ Muvaffaqiyatli vektorlandi: 256-modda. Majburiyatlarni muqobil suratda bajarish
+[2026-06-05 12:34:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:52] [INFO] ✔ Muvaffaqiyatli vektorlandi: 257-modda. Majburiyatning bajarganligini tasdiqlash
+[2026-06-05 12:34:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:53] [INFO] ✔ Muvaffaqiyatli vektorlandi: 258-modda. Majburiyat bajarilganligini tasdiqlash haqidagi talabni bajarmaslik oqibatlari
+[2026-06-05 12:34:53] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:54] [INFO] ✔ Muvaffaqiyatli vektorlandi: 259-modda. Umumiy qoidalar
+[2026-06-05 12:34:57] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:57] [INFO] ✔ Muvaffaqiyatli vektorlandi: 2591-modda. Kreditorlarning talablarini qarzdorning majburiyatlar bajarilishining taʼminoti sifatida berilgan mol-mulki yoki yer uchastkasini ijaraga olish huquqi hisobidan qanoatlantirish
+[2026-06-05 12:34:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:58] [INFO] ✔ Muvaffaqiyatli vektorlandi: 260-modda. Neustoyka tushunchasi
+[2026-06-05 12:34:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:58] [INFO] ✔ Muvaffaqiyatli vektorlandi: 261-modda. Neustoyka shakllari
+[2026-06-05 12:34:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:59] [INFO] ✔ Muvaffaqiyatli vektorlandi: 262-modda. Neustoyka toʻgʻrisidagi kelishuvning shakli
+[2026-06-05 12:34:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:34:59] [INFO] ✔ Muvaffaqiyatli vektorlandi: 263-modda. Qonuniy neustoyka
+[2026-06-05 12:35:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:01] [INFO] ✔ Muvaffaqiyatli vektorlandi: 264-modda. Garov tushunchasi va uning vujudga kelish asoslari
+[2026-06-05 12:35:01] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:01] [INFO] ✔ Muvaffaqiyatli vektorlandi: 265-modda. Garov turlari
+[2026-06-05 12:35:02] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:02] [INFO] ✔ Muvaffaqiyatli vektorlandi: 266-modda. Garovga qoʻyuvchi
+[2026-06-05 12:35:02] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:02] [INFO] ✔ Muvaffaqiyatli vektorlandi: 267-modda. Garov narsasi
+[2026-06-05 12:35:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:03] [INFO] ✔ Muvaffaqiyatli vektorlandi: 268-modda. Garov bilan taʼminlanadigan talab
+[2026-06-05 12:35:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:04] [INFO] ✔ Muvaffaqiyatli vektorlandi: 269-modda. Garovga qoʻyilgan mol-mulkning garovga oluvchiga berilishi va berilmasligi
+[2026-06-05 12:35:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:05] [INFO] ✔ Muvaffaqiyatli vektorlandi: 270-modda. Garov huquqining vujudga kelishi
+[2026-06-05 12:35:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:06] [INFO] ✔ Muvaffaqiyatli vektorlandi: 271-modda. Garov toʻgʻrisidagi shartnoma, uning shakli va shartnomani roʻyxatdan oʻtkazish
+[2026-06-05 12:35:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:09] [INFO] ✔ Muvaffaqiyatli vektorlandi: 272-modda. Garovga oluvchining huquqlari joriy qilinadigan mol-mulk
+[2026-06-05 12:35:10] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:10] [INFO] ✔ Muvaffaqiyatli vektorlandi: 273-modda. Navbatdagi garov
+[2026-06-05 12:35:11] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:11] [INFO] ✔ Muvaffaqiyatli vektorlandi: 274-modda. Garovga qoʻyilgan mol-mulkni saqlash va asrash
+[2026-06-05 12:35:13] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:13] [INFO] ✔ Muvaffaqiyatli vektorlandi: 275-modda. Garovga qoʻyilgan mol-mulk yoʻqolishi yoki shikastlanishining oqibatlari
+[2026-06-05 12:35:13] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:13] [INFO] ✔ Muvaffaqiyatli vektorlandi: 276-modda. Garov narsasini almashtirish va tiklash
+[2026-06-05 12:35:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 277-modda. Garov narsasidan foydalanish va uni tasarruf etish
+[2026-06-05 12:35:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:15] [INFO] ✔ Muvaffaqiyatli vektorlandi: 278-modda. Garovga oluvchining garov narsasiga boʻlgan oʻz huquqlarini himoya qilishi
+[2026-06-05 12:35:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:17] [INFO] ✔ Muvaffaqiyatli vektorlandi: 279-modda. Undiruvni garovga qoʻyilgan mol-mulkka qaratish asoslari
+[2026-06-05 12:35:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:19] [INFO] ✔ Muvaffaqiyatli vektorlandi: 280-modda. Undiruvni garovga qoʻyilgan mol-mulkka qaratish tartibi
+[2026-06-05 12:35:23] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:23] [INFO] ✔ Muvaffaqiyatli vektorlandi: 281-modda. Garovga qoʻyilgan mol-mulkni sotish
+[2026-06-05 12:35:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:24] [INFO] ✔ Muvaffaqiyatli vektorlandi: 282-modda. Garov bilan taʼminlangan majburiyatni muddatidan ilgari bajarish va undiruvni garovga qoʻyilgan mol-mulkka qaratish
+[2026-06-05 12:35:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:26] [INFO] ✔ Muvaffaqiyatli vektorlandi: 283-modda. Garovning bekor boʻlishi
+[2026-06-05 12:35:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:27] [INFO] ✔ Muvaffaqiyatli vektorlandi: 285-modda. Garovga qoʻyilgan mol-mulkni majburiy ravishda olib qoʻyishning oqibatlari
+[2026-06-05 12:35:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 286-modda. Garov toʻgʻrisidagi shartnoma boʻyicha huquqlardan boshqa shaxs foydasiga voz kechish
+[2026-06-05 12:35:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:29] [INFO] ✔ Muvaffaqiyatli vektorlandi: 287-modda. Garov bilan taʼminlangan majburiyat boʻyicha qarzni boshqa shaxsga oʻtkazish
+[2026-06-05 12:35:30] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:30] [INFO] ✔ Muvaffaqiyatli vektorlandi: 288-modda. Muomaladagi tovarlar garovi
+[2026-06-05 12:35:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 289-modda. Ashyolarning lombardda garovga qoʻyilishi
+[2026-06-05 12:35:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 12:35:33] [INFO] ✔ Muvaffaqiyatli vektorlandi: 290-modda. Ushlab qolish asoslari
+[2026-06-05 12:35:33] [INFO] ==================================================
+[2026-06-05 12:35:33] [INFO] ✅ BARCHA MA'LUMOTLAR VEKTOR BAZAGA MUHRLANDI!
+[2026-06-05 12:35:33] [INFO] Endi 'main.py' orqali chatbotni ishga tushirsangiz bo'ladi.
+[2026-06-05 12:35:33] [INFO] ==================================================
+[2026-06-05 14:40:29] [INFO] === VEKTOR BAZANI TOZALASH VA MALUMOT.TXT DAN QAYTA YARATISH BOSHLANDI ===
+[2026-06-05 14:40:29] [INFO] 🗑️ Eski vektor collection o'chirildi: legal_rag_storage
+[2026-06-05 14:40:29] [INFO] 'malumot.txt' faylidan 70 ta hujjat topildi.
+[2026-06-05 14:40:29] [INFO] Faqat shu fayldagi ma'lumotlar vektor bazaga yoziladi.
+[2026-06-05 14:40:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:31] [INFO] ✔ Vektorlandi (1/70): 1-modda. Fuqarolik qonunchiligining asosiy negizlari
+[2026-06-05 14:40:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:33] [INFO] ✔ Vektorlandi (2/70): 2-modda. Fuqarolik qonunchiligi bilan tartibga solinadigan munosabatlar
+[2026-06-05 14:40:34] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:34] [INFO] ✔ Vektorlandi (3/70): 3-modda. Fuqarolik qonunchiligi hujjatlari
+[2026-06-05 14:40:35] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:35] [INFO] ✔ Vektorlandi (4/70): 4-modda. Fuqarolik qonunchiligining vaqt boʻyicha amal qilishi
+[2026-06-05 14:40:36] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:36] [INFO] ✔ Vektorlandi (5/70): 5-modda. Fuqarolik qonunchiligini oʻxshashlik boʻyicha qoʻllash
+[2026-06-05 14:40:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:37] [INFO] ✔ Vektorlandi (6/70): 6-modda. Ish muomalasi odatlari. Mahalliy odat va anʼanalar
+[2026-06-05 14:40:37] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:37] [INFO] ✔ Vektorlandi (7/70): 7-modda. Fuqarolik qonunchiligi va xalqaro shartnomalar hamda bitimlar
+[2026-06-05 14:40:39] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:39] [INFO] ✔ Vektorlandi (8/70): 8-modda. Fuqarolik huquq va burchlarining vujudga kelish asoslari
+[2026-06-05 14:40:40] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:40] [INFO] ✔ Vektorlandi (9/70): 9-modda. Fuqarolik huquqlarini amalga oshirish
+[2026-06-05 14:40:41] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:41] [INFO] ✔ Vektorlandi (10/70): 10-modda. Fuqarolik huquqlarini sud orqali himoya qilish
+[2026-06-05 14:40:42] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:42] [INFO] ✔ Vektorlandi (11/70): 11-modda. Fuqarolik huquqlarini himoya qilish usullari
+[2026-06-05 14:40:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:43] [INFO] ✔ Vektorlandi (12/70): 12-modda. Davlat organining yoki fuqarolarning oʻzini oʻzi boshqarish organining hujjatini haqiqiy emas deb topish
+[2026-06-05 14:40:43] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:43] [INFO] ✔ Vektorlandi (13/70): 13-modda. Fuqarolik huquqlarini shaxsning oʻzi himoya qilishi
+[2026-06-05 14:40:44] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:44] [INFO] ✔ Vektorlandi (14/70): 14-modda. Zararni qoplash
+[2026-06-05 14:40:45] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:45] [INFO] ✔ Vektorlandi (15/70): 15-modda. Davlat organlari va fuqarolarning oʻzini oʻzi boshqarish organlari tomonidan yetkazilgan zararni toʻlash
+[2026-06-05 14:40:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:46] [INFO] ✔ Vektorlandi (16/70): 16-modda. Fuqaro (jismoniy shaxs) tushunchasi
+[2026-06-05 14:40:46] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:46] [INFO] ✔ Vektorlandi (17/70): 17-modda. Fuqarolarning huquq layoqati
+[2026-06-05 14:40:47] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:47] [INFO] ✔ Vektorlandi (18/70): 18-modda. Fuqarolar huquq layoqatining mazmuni
+[2026-06-05 14:40:49] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:49] [INFO] ✔ Vektorlandi (19/70): 19-modda. Fuqaroning ismi
+[2026-06-05 14:40:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:50] [INFO] ✔ Vektorlandi (20/70): 20-modda. Ismni himoya qilish
+[2026-06-05 14:40:50] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:50] [INFO] ✔ Vektorlandi (21/70): 21-modda. Fuqaroning yashash joyi
+[2026-06-05 14:40:51] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:51] [INFO] ✔ Vektorlandi (22/70): 22-modda. Fuqaroning muomala layoqati
+[2026-06-05 14:40:52] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:52] [INFO] ✔ Vektorlandi (23/70): 23-modda. Fuqaroning huquq layoqati va muomala layoqatini cheklashga yoʻl qoʻyilmasligi
+[2026-06-05 14:40:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:54] [INFO] ✔ Vektorlandi (24/70): 24-modda. Fuqaroning tadbirkorlik faoliyati
+[2026-06-05 14:40:54] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:54] [INFO] ✔ Vektorlandi (25/70): 25-modda. Fuqaroning mulkiy javobgarligi
+[2026-06-05 14:40:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:56] [INFO] ✔ Vektorlandi (26/70): 26-modda. Yakka tartibdagi tadbirkorning va yakka tartibdagi tadbirkor maqomini yoʻqotgan jismoniy shaxsning toʻlovga qobiliyatsizligi
+[2026-06-05 14:40:56] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:56] [INFO] ✔ Vektorlandi (27/70): 291-modda. Talablarni ushlab qolingan ashyo hisobidan qondirish
+[2026-06-05 14:40:57] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:57] [INFO] ✔ Vektorlandi (28/70): 292-modda. Kafillik shartnomasi
+[2026-06-05 14:40:58] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:58] [INFO] ✔ Vektorlandi (29/70): 293-modda. Kaflikning javobgarligi
+[2026-06-05 14:40:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:40:59] [INFO] ✔ Vektorlandi (30/70): 294-modda. Kafilga nisbatan daʼvo qoʻzgʻatilgan taqdirda uning huquq va burchlari
+[2026-06-05 14:40:59] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:00] [INFO] ✔ Vektorlandi (31/70): 295-modda. Majburiyatni bajargan kafilning huquqlari
+[2026-06-05 14:41:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:00] [INFO] ✔ Vektorlandi (32/70): 296-modda. Qarzdor majburiyatini bajarganligi haqida kafilni xabardor qilish
+[2026-06-05 14:41:00] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:00] [INFO] ✔ Vektorlandi (33/70): 297-modda. Kafilning xizmatlariga haq toʻlash
+[2026-06-05 14:41:02] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:02] [INFO] ✔ Vektorlandi (34/70): 298-modda. Kafillikning bekor boʻlishi
+[2026-06-05 14:41:02] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:02] [INFO] ✔ Vektorlandi (35/70): 299-modda. Kafolat tushunchasi
+[2026-06-05 14:41:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:03] [INFO] ✔ Vektorlandi (36/70): 300-modda. Prinsipalning majburiyatlarini kafolat bilan taʼminlash
+[2026-06-05 14:41:03] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:03] [INFO] ✔ Vektorlandi (37/70): 301-modda. Kafolatning asosiy majburiyatdan mustaqilligi
+[2026-06-05 14:41:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:04] [INFO] ✔ Vektorlandi (38/70): 302-modda. Kafolatning chaqirib olinmasligi
+[2026-06-05 14:41:04] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:04] [INFO] ✔ Vektorlandi (39/70): 303-modda. Kafolat boʻyicha huquqlarning boshqa shaxsga oʻtkazilmasligi
+[2026-06-05 14:41:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:05] [INFO] ✔ Vektorlandi (40/70): 304-modda. Kafolatning kuchga kirishi
+[2026-06-05 14:41:05] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:05] [INFO] ✔ Vektorlandi (41/70): 305-modda. Kafolat boʻyicha talab taqdim etish
+[2026-06-05 14:41:06] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:06] [INFO] ✔ Vektorlandi (42/70): 306-modda. Benefitsiarning talabini koʻrib chiqishda kafilning majburiyatlari
+[2026-06-05 14:41:07] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:07] [INFO] ✔ Vektorlandi (43/70): 307-modda. Kafilning benefitsiar talabini qondirishni rad etishi
+[2026-06-05 14:41:08] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:08] [INFO] ✔ Vektorlandi (44/70): 308-modda. Kafil majburiyatlarining chegaralari
+[2026-06-05 14:41:09] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:09] [INFO] ✔ Vektorlandi (45/70): 309-modda. Kafolatning bekor boʻlishi
+[2026-06-05 14:41:10] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:10] [INFO] ✔ Vektorlandi (46/70): 310-modda. Kafilning prinsipalga regress talablari
+[2026-06-05 14:41:10] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:10] [INFO] ✔ Vektorlandi (47/70): 311-modda. Zakalat tushunchasi. Zakalat toʻgʻrisidagi kelishuv shakli
+[2026-06-05 14:41:12] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:12] [INFO] ✔ Vektorlandi (48/70): 312-modda. Zakalat bilan taʼminlangan majburiyatni bekor qilish va bajarmaslik oqibatlari
+[2026-06-05 14:41:13] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:13] [INFO] ✔ Vektorlandi (49/70): 313-modda. Kreditor huquqlarining boshqa shaxsga oʻtish asoslari va tartibi
+[2026-06-05 14:41:14] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:14] [INFO] ✔ Vektorlandi (50/70): 314-modda. Boshqa shaxslarga oʻtishi mumkin boʻlmagan huquqlar
+[2026-06-05 14:41:15] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:15] [INFO] ✔ Vektorlandi (51/70): 315-modda. Boshqa shaxsga oʻtadigan kreditor huquqlarining hajmi
+[2026-06-05 14:41:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:16] [INFO] ✔ Vektorlandi (52/70): 316-modda. Yangi kreditor huquqlarining isboti
+[2026-06-05 14:41:16] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:16] [INFO] ✔ Vektorlandi (53/70): 317-modda. Qarzdorning yangi kreditor talabiga qarshi eʼtirozlari
+[2026-06-05 14:41:17] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:17] [INFO] ✔ Vektorlandi (54/70): 318-modda. Kreditor huquqlarining qonun asosida boshqa shaxsga oʻtishi
+[2026-06-05 14:41:18] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:18] [INFO] ✔ Vektorlandi (55/70): 319-modda. Talabdan boshqa shaxs foydasiga voz kechish shartlari
+[2026-06-05 14:41:19] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:19] [INFO] ✔ Vektorlandi (56/70): 320-modda. Talabdan boshqa shaxs foydasiga voz kechish shakli
+[2026-06-05 14:41:20] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:20] [INFO] ✔ Vektorlandi (57/70): 321-modda. Talabdan boshqa shaxs foydasiga voz kechgan kreditorning javobgarligi
+[2026-06-05 14:41:21] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:21] [INFO] ✔ Vektorlandi (58/70): 322-modda. Qarzni boshqa shaxsga oʻtkazish
+[2026-06-05 14:41:22] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:22] [INFO] ✔ Vektorlandi (59/70): 323-modda. Qarzni va ijroni bir paytda boshqa shaxsga oʻtkazish
+[2026-06-05 14:41:23] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:23] [INFO] ✔ Vektorlandi (60/70): 324-modda. Qarzdorning zararni toʻlash majburiyati
+[2026-06-05 14:41:23] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:23] [INFO] ✔ Vektorlandi (61/70): 325-modda. Neustoyka va zarar
+[2026-06-05 14:41:24] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:24] [INFO] ✔ Vektorlandi (62/70): 326-modda. Neustoykani kamaytirish
+[2026-06-05 14:41:25] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:25] [INFO] ✔ Vektorlandi (63/70): 327-modda. Pul majburiyatini bajarmaganlik uchun javobgarlik
+[2026-06-05 14:41:26] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:26] [INFO] ✔ Vektorlandi (64/70): 328-modda. Majburiyatning qarzdor hisobidan bajarilishi
+[2026-06-05 14:41:27] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:27] [INFO] ✔ Vektorlandi (65/70): 329-modda. Subsidiar javobgarlik
+[2026-06-05 14:41:28] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:28] [INFO] ✔ Vektorlandi (66/70): 330-modda. Javobgarlik va majburiyatni asl holida bajarish
+[2026-06-05 14:41:29] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:29] [INFO] ✔ Vektorlandi (67/70): 261-modda. Jismoniy shaxsning toʻlovga qobiliyatsizligi
+[2026-06-05 14:41:31] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:31] [INFO] ✔ Vektorlandi (68/70): 27-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlarning muomala layoqati
+[2026-06-05 14:41:32] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:32] [INFO] ✔ Vektorlandi (69/70): 28-modda. Emansipatsiya
+[2026-06-05 14:41:33] [INFO] HTTP Request: POST http://127.0.0.1:11434/api/embeddings "HTTP/1.1 200 OK"
+[2026-06-05 14:41:33] [INFO] ✔ Vektorlandi (70/70): 29-modda. Oʻn toʻrt yoshga toʻlmagan voyaga yetmaganlarning muomala layoqati
+[2026-06-05 14:41:33] [INFO] ==================================================
+[2026-06-05 14:41:33] [INFO] ✅ VEKTOR BAZA TOZALANDI VA FAQAT MALUMOT.TXT ASOSIDA QAYTA YARATILDI!
+[2026-06-05 14:41:33] [INFO] Endi backend serverni qayta ishga tushiring: python app.py
+[2026-06-05 14:41:33] [INFO] ==================================================

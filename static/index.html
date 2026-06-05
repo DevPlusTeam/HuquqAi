@@ -1,0 +1,528 @@
+  <!DOCTYPE html>
+  <html lang="uz" data-theme="light">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huquq Ai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <div class="app">
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">
+        <div class="logo-mark">
+          <i class="bi bi-patch-check-fill"></i>
+        </div>
+        <span class="logo-name">Huquq AI</span>
+      </div>
+
+      <button class="new-chat-btn" onclick="startNewChat()">
+        <i class="bi bi-plus-lg"></i>
+        Yangi maslahat
+      </button>
+
+      <div class="sidebar-section-label">So'nggi suhbatlar</div>
+
+      <div class="chat-item" onclick="loadChat(this)">
+        <i class="bi bi-chat-left-text chat-item-icon"></i>
+        <span class="chat-item-text">Ish beruvchi maoshimni bermayapti</span>
+        <span class="chat-item-time">2m</span>
+      </div>
+      <div class="chat-item" onclick="loadChat(this)">
+        <i class="bi bi-chat-left-text chat-item-icon"></i>
+        <span class="chat-item-text">YTH bo'ldi, ayb mendamas</span>
+        <span class="chat-item-time">1h</span>
+      </div>
+      <div class="chat-item" onclick="loadChat(this)">
+        <i class="bi bi-chat-left-text chat-item-icon"></i>
+        <span class="chat-item-text">Ijara shartnomasiz uyda yashash</span>
+        <span class="chat-item-time">3h</span>
+      </div>
+
+      <div class="sidebar-section-label">Bo'limlar</div>
+
+      <div class="folder-group">
+        <div class="folder-header">
+          <i class="bi bi-folder2-open"></i>
+          Mehnat huquqi
+        </div>
+      </div>
+      <div class="folder-group">
+        <div class="folder-header">
+          <i class="bi bi-folder2-open"></i>
+          Fuqarolik masalalari
+        </div>
+      </div>
+
+      <div class="sidebar-spacer"></div>
+
+      <div class="sidebar-bottom">
+        <div class="theme-toggle" onclick="toggleTheme()">
+          <span style="display:flex;align-items:center;gap:9px">
+            <i class="bi bi-brightness-high"></i>
+            Yoruq rejim
+          </span>
+          <div class="toggle-pill"></div>
+        </div>
+        <div class="sidebar-action" onclick="openPanel('stats')">
+          <i class="bi bi-graph-up-arrow"></i>
+          Foydalanish statistikasi
+        </div>
+        <div class="user-profile">
+          <div class="user-avatar">AJ</div>
+          <div class="user-info">
+            <div class="user-name">Foydalanuvchi</div>
+            <div class="user-plan">Huquq AI</div>
+          </div>
+          <i class="bi bi-chevron-right" style="color:var(--text3);flex-shrink:0"></i>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- TOP NAV -->
+      <nav class="topnav">
+        <button class="nav-toggle" onclick="toggleSidebar()" title="Toggle sidebar">
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div class="model-dropdown" id="modelDropdown">
+          <button class="model-selector" onclick="toggleModelMenu(event)">
+            <div class="model-dot"></div>
+            <span id="modelName">O'zbekiston Respublikasi kodekslari</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="model-menu" id="modelMenu">
+            <button class="model-option active" onclick="selectModel(0)">
+              <span>O'zbekiston Respublikasi kodekslari</span>
+              <span class="model-option-check">✓</span>
+            </button>
+            <button class="model-option" onclick="selectModel(1)">
+              <span>Fuqarolik kodeksi</span>
+              <span class="model-option-check">✓</span>
+            </button>
+            <button class="model-option" onclick="selectModel(2)">
+              <span>Mehnat kodeksi</span>
+              <span class="model-option-check">✓</span>
+            </button>
+            <button class="model-option" onclick="selectModel(3)">
+              <span>Jinoyat kodeksi</span>
+              <span class="model-option-check">✓</span>
+            </button>
+          </div>
+        </div>
+
+        <button class="feature-btn" onclick="openPanel('tools')" title="Yuridik vositalar">
+          <i class="bi bi-stars"></i>
+          <span>Yuridik vositalar</span>
+        </button>
+
+        <div class="nav-spacer"></div>
+
+        <button class="nav-btn" onclick="openPanel('search')" title="Qidiruv">
+          <i class="bi bi-search"></i>
+        </button>
+
+        <button class="nav-btn" onclick="openPanel('tools')" title="Yuridik vositalar">
+          <i class="bi bi-stars"></i>
+          <div class="badge"></div>
+        </button>
+
+        <button class="nav-btn" onclick="openSettings()" title="Sozlamalar">
+          <i class="bi bi-sliders"></i>
+        </button>
+      </nav>
+
+      <!-- CHAT AREA -->
+      <div class="chat-area" id="chatArea">
+        <!-- WELCOME STATE -->
+        <div class="welcome" id="welcomeState">
+          <h1>Huquqiy savolingizni yozing</h1>
+          <p>Huquq AI huquq va majburiyatlaringizni O'zbekiston qonunlari asosida sodda tilda tushuntiradi.</p>
+          <div class="prompt-grid">
+            <div class="prompt-card" onclick="usePrompt('Ish beruvchi maoshimni bermayapti, nima qilishim kerak?')">
+              <span class="prompt-card-emoji"><i class="bi bi-briefcase"></i></span>
+              <div class="prompt-card-title">Mehnat nizosi</div>
+              <div class="prompt-card-sub">Oylik, ishdan bo'shatish va ish joyidagi huquqlar</div>
+            </div>
+            <div class="prompt-card" onclick="usePrompt('YTH bo\'ldi, ayb mendamas, nima qilishim kerak?')">
+              <span class="prompt-card-emoji"><i class="bi bi-car-front"></i></span>
+              <div class="prompt-card-title">Yo'l-transport hodisasi</div>
+              <div class="prompt-card-sub">Hujjatlar, dalillar va murojaat tartibi bo'yicha yo'l-yo'riq</div>
+            </div>
+            <div class="prompt-card" onclick="usePrompt('Ijara shartnomasiz uyda yashasam qonuniy muammo bo\'ladimi?')">
+              <span class="prompt-card-emoji"><i class="bi bi-house-door"></i></span>
+              <div class="prompt-card-title">Uy-joy masalalari</div>
+              <div class="prompt-card-sub">Ijara, mulk, kommunal va yashash bilan bog'liq savollar</div>
+            </div>
+            <div class="prompt-card" onclick="usePrompt('Passportimni ushlab qolishdi, bu qonuniymi?')">
+              <span class="prompt-card-emoji"><i class="bi bi-shield-check"></i></span>
+              <div class="prompt-card-title">Shaxsiy huquqlar</div>
+              <div class="prompt-card-sub">Hujjatlar, erkinliklar va noqonuniy talablar bo'yicha yordam</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MESSAGES -->
+        <div class="messages hidden" id="messagesContainer"></div>
+      </div>
+
+      <!-- INPUT AREA -->
+      <div class="input-area">
+        <div class="input-wrapper">
+          <div class="input-box">
+            <div class="input-row">
+              <button class="input-btn" title="Attach file" onclick="openPanel('files')">
+                <i class="bi bi-paperclip"></i>
+              </button>
+              <textarea
+                class="chat-input"
+                id="chatInput"
+                placeholder="Huquqiy savolingizni yozing..."
+                autocomplete="off"
+                rows="3"
+                onkeydown="handleKey(event)"
+                oninput="autoResize(this)"
+              ></textarea>
+              <button class="input-btn voice-btn" id="voiceBtn" title="Ovozli savol" onclick="toggleVoiceInput()">
+                <i class="bi bi-mic"></i>
+              </button>
+              <button class="send-btn" id="sendBtn" onclick="sendMessage()" disabled>
+                <i class="bi bi-send-fill"></i>
+              </button>
+            </div>
+            <div class="input-footer">
+              <span class="model-badge">
+                <div class="model-dot" style="width:6px;height:6px;display:inline-block;border-radius:50%;background:#14b8a6;box-shadow:0 0 5px rgba(20,184,166,0.45);"></div>
+                &nbsp; <span id="modelBadgeName">O'zbekiston Respublikasi kodekslari</span>
+              </span>
+              <span>Enter yuboradi, Shift+Enter yangi qator</span>
+            </div>
+            <div class="voice-status" id="voiceStatus" aria-live="polite">
+              <div class="voice-orb">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="voice-status-copy">
+                <div class="voice-status-title">Tinglayapman...</div>
+                <div class="voice-status-sub">Savolingizni ovoz bilan ayting</div>
+              </div>
+              <button class="voice-stop-btn" type="button" onclick="cancelVoiceInput(event)">
+                <i class="bi bi-stop-fill"></i>
+                Stop
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- PANEL BACKDROP -->
+  <div class="panel-backdrop" id="panelBackdrop" onclick="closePanel()"></div>
+
+  <!-- SEARCH PANEL -->
+  <div class="panel" id="searchPanel">
+    <div class="panel-header">
+      <span class="panel-title">Suhbatlardan qidirish</span>
+      <button class="panel-close" onclick="closePanel()">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    <div class="panel-body">
+      <div class="search-input-wrap">
+        <i class="bi bi-search search-input-icon"></i>
+        <input class="search-input" placeholder="Savol yoki mavzu bo'yicha qidiring..." autofocus>
+      </div>
+      <div class="sidebar-section-label">So'nggi suhbatlar</div>
+      <div class="chat-item" style="border-radius:10px">
+        <i class="bi bi-chat-left-text chat-item-icon"></i>
+        <span class="chat-item-text">Ish beruvchi maoshimni bermayapti</span>
+      </div>
+      <div class="chat-item" style="border-radius:10px">
+        <i class="bi bi-chat-left-text chat-item-icon"></i>
+        <span class="chat-item-text">YTH bo'ldi, ayb mendamas</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOOLS PANEL -->
+  <div class="panel" id="toolsPanel">
+    <div class="panel-header">
+      <span class="panel-title">Yuridik vositalar</span>
+      <button class="panel-close" onclick="closePanel()">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    <div class="panel-body">
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab(this,'tools-tab')">Vositalar</button>
+        <button class="tab-btn" onclick="switchTab(this,'templates-tab')">Shablonlar</button>
+        <button class="tab-btn" onclick="switchTab(this,'petition-tab')">Ariza generator</button>
+      </div>
+      <div id="tools-tab">
+        <div class="tool-grid">
+          <div class="tool-card" onclick="usePrompt('Quyidagi huquqiy vaziyatni sodda qilib tushuntirib bering:')">
+            <div class="tool-card-icon"><i class="bi bi-card-text"></i></div>
+            <div class="tool-card-name">Sodda tushuntirish</div>
+            <div class="tool-card-desc">Murakkab matnni oddiylashtiradi</div>
+          </div>
+          <div class="tool-card" onclick="usePrompt('Shu holatga tegishli qonun moddalarini topib bering:')">
+            <div class="tool-card-icon"><i class="bi bi-journal-text"></i></div>
+            <div class="tool-card-name">Qonun moddalari</div>
+            <div class="tool-card-desc">Tegishli huquqiy asoslarni topadi</div>
+          </div>
+          <div class="tool-card" onclick="usePrompt('Bu muammo bo\'yicha qayerga murojaat qilishim kerak?')">
+            <div class="tool-card-icon"><i class="bi bi-signpost-split"></i></div>
+            <div class="tool-card-name">Murojaat yo'li</div>
+            <div class="tool-card-desc">Tashkilot va tartibni ko'rsatadi</div>
+          </div>
+          <div class="tool-card" onclick="switchTab(document.querySelector('#toolsPanel .tab-btn:nth-child(3)'), 'petition-tab')">
+            <div class="tool-card-icon"><i class="bi bi-pencil-square"></i></div>
+            <div class="tool-card-name">Ariza yozish</div>
+            <div class="tool-card-desc">Rasmiy matn tuzishda yordam beradi</div>
+          </div>
+          <div class="tool-card" onclick="usePrompt('Muammoni hal qilish uchun qadamma-qadam reja tuzing:')">
+            <div class="tool-card-icon"><i class="bi bi-list-check"></i></div>
+            <div class="tool-card-name">Amaliy reja</div>
+            <div class="tool-card-desc">Keyingi qadamlarni tartiblaydi</div>
+          </div>
+          <div class="tool-card" onclick="usePrompt('Bu holat qonuniymi yoki yo\'qmi, izohlab bering:')">
+            <div class="tool-card-icon"><i class="bi bi-search-heart"></i></div>
+            <div class="tool-card-name">Huquqiy tahlil</div>
+            <div class="tool-card-desc">Holatga qonuniy baho beradi</div>
+          </div>
+        </div>
+      </div>
+      <div id="templates-tab" class="hidden">
+        <div class="template-item" onclick="usePrompt('[tashkilot nomi]ga murojaat uchun ariza yozib bering. Mavzu: [muammo]. Ohangi rasmiy bo\'lsin.')">
+          <div class="template-title">Rasmiy ariza</div>
+          <div class="template-preview">[tashkilot nomi]ga murojaat uchun ariza...</div>
+        </div>
+        <div class="template-item" onclick="usePrompt('Shikoyat arizasi yozib bering. Kimga: [idora]. Holat: [vaziyat]. Talab: [natija].')">
+          <div class="template-title">Shikoyat arizasi</div>
+          <div class="template-preview">Kimga: [idora]. Holat: [vaziyat]...</div>
+        </div>
+        <div class="template-item" onclick="usePrompt('Mening holatimni huquqiy jihatdan tahlil qiling: faktlar, xavflar, huquqlar va keyingi qadamlar bo\'yicha.')">
+          <div class="template-title">Huquqiy tahlil</div>
+          <div class="template-preview">Faktlar, xavflar, huquqlar va keyingi qadamlar...</div>
+        </div>
+        <div class="template-item" onclick="usePrompt('Menga quyidagi masala bo\'yicha qisqa va tushunarli huquqiy maslahat bering: [savol].')">
+          <div class="template-title">Qisqa maslahat</div>
+          <div class="template-preview">[savol] bo'yicha sodda yuridik izoh...</div>
+        </div>
+      </div>
+      <div id="petition-tab" class="hidden">
+        <div class="petition-builder">
+          <div class="petition-head">
+            <div class="petition-title">Ariza generator</div>
+            <div class="petition-sub">Kerakli ma'lumotlarni kiriting, tizim tayyor ariza matnini shakllantiradi.</div>
+          </div>
+          <div class="petition-form-grid">
+            <label class="petition-field petition-field-full">
+              <span>Tashkilot nomi</span>
+              <input id="petitionTo" class="petition-input" placeholder="Masalan: Sardoriyo tuman Barkamol avlod bolalar maktabi direktori">
+            </label>
+            <label class="petition-field">
+              <span>Rahbar F.I.Sh.</span>
+              <input id="petitionRecipient" class="petition-input" placeholder="Masalan: I. Abduraximov">
+            </label>
+            <label class="petition-field">
+              <span>Ariza beruvchi</span>
+              <input id="petitionFrom" class="petition-input" placeholder="F.I.Sh">
+            </label>
+            <label class="petition-field petition-field-full">
+              <span>Manzil / yashash joyi</span>
+              <input id="petitionAddress" class="petition-input" placeholder="Masalan: Guliston ko'chasi 12-uy">
+            </label>
+            <label class="petition-field petition-field-full">
+              <span>Mavzu</span>
+              <input id="petitionSubject" class="petition-input" placeholder="Masalan: Ish haqi undirish haqida">
+            </label>
+            <label class="petition-field petition-field-full">
+              <span>Holat tafsiloti</span>
+              <textarea id="petitionSituation" class="petition-textarea" placeholder="Vaziyatni qisqacha, lekin tushunarli yozing"></textarea>
+            </label>
+            <label class="petition-field petition-field-full">
+              <span>Talab</span>
+              <textarea id="petitionRequest" class="petition-textarea" placeholder="Siz qanday natija so'rayapsiz?"></textarea>
+            </label>
+            <label class="petition-field petition-field-full">
+              <span>Ilovalar</span>
+              <input id="petitionAttachments" class="petition-input" placeholder="Masalan: pasport nusxasi, shartnoma, чек">
+            </label>
+          </div>
+          <div class="petition-actions">
+            <button class="petition-btn petition-btn-primary" onclick="generatePetition()">Arizani yaratish</button>
+            <button class="petition-btn" onclick="useGeneratedPetition()">Chatga yuborish</button>
+            <button class="petition-btn" onclick="copyGeneratedPetition()">Nusxalash</button>
+            <button class="petition-btn" onclick="downloadPetitionDocx()">DOCX yuklab olish</button>
+          </div>
+          <div class="petition-preview-wrap">
+            <div class="petition-preview-label">Tayyor matn</div>
+            <div class="petition-preview" id="petitionPreview">Ariza matni shu yerda ko'rinadi.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FILES PANEL -->
+  <div class="panel" id="filesPanel">
+    <div class="panel-header">
+      <span class="panel-title">Hujjat yuklash</span>
+      <button class="panel-close" onclick="closePanel()">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    <div class="panel-body">
+      <div style="border:2px dashed var(--border2);border-radius:var(--radius);padding:32px;text-align:center;cursor:pointer;transition:all var(--transition);margin-bottom:16px;" onmouseover="this.style.borderColor='rgba(15,118,110,0.4)'" onmouseout="this.style.borderColor='var(--border2)'">
+        <div style="font-size:28px;margin-bottom:10px">ðŸ“Ž</div>
+        <div style="font-size:13px;font-weight:500;margin-bottom:4px">Fayllarni shu yerga tashlang</div>
+        <div style="font-size:12px;color:var(--text3)">yoki tanlash uchun bosing</div>
+        <div style="font-size:11px;color:var(--text3);margin-top:8px">PDF, rasm va hujjatlar 25MB gacha</div>
+      </div>
+      <div class="sidebar-section-label">So'nggi hujjatlar</div>
+      <div class="file-preview">
+        <div class="file-icon-box"><i class="bi bi-file-earmark-text"></i></div>
+        <div class="file-info">
+          <div class="file-name">mehnat_shartnomasi.pdf</div>
+          <div class="file-size">2.4 MB Â· PDF</div>
+        </div>
+      </div>
+      <div class="file-preview">
+        <div class="file-icon-box"><i class="bi bi-image"></i></div>
+        <div class="file-info">
+          <div class="file-name">yth_bayon_rasmi.png</div>
+          <div class="file-size">840 KB Â· Rasm</div>
+        </div>
+      </div>
+      <div class="file-preview">
+        <div class="file-icon-box"><i class="bi bi-file-earmark-richtext"></i></div>
+        <div class="file-info">
+          <div class="file-name">shikoyat_namuna.docx</div>
+          <div class="file-size">12 KB Â· Hujjat</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS PANEL -->
+  <div class="panel" id="statsPanel">
+    <div class="panel-header">
+      <span class="panel-title">Platforma statistikasi</span>
+      <button class="panel-close" onclick="closePanel()">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    <div class="panel-body">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value">248</div>
+          <div class="stat-label">Maslahatlar</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">1.2M</div>
+          <div class="stat-label">Tahlil qilingan savollar</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">42</div>
+          <div class="stat-label">Ko'rib chiqilgan hujjatlar</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">18h</div>
+          <div class="stat-label">Tejangan vaqt</div>
+        </div>
+      </div>
+      <div class="section-divider"></div>
+      <div class="usage-bar-wrap">
+        <div class="usage-bar-label">
+          <span>Oylik murojaatlar</span>
+          <span>1.2M / 5M</span>
+        </div>
+        <div class="usage-bar">
+          <div class="usage-bar-fill" style="width:24%"></div>
+        </div>
+      </div>
+      <div class="usage-bar-wrap" style="margin-top:12px">
+        <div class="usage-bar-label">
+          <span>Hujjatlar saqlanishi</span>
+          <span>340 MB / 10 GB</span>
+        </div>
+        <div class="usage-bar">
+          <div class="usage-bar-fill" style="width:3.4%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SETTINGS MODAL -->
+  <div class="modal-backdrop" id="settingsModal" onclick="closeSettingsOutside(event)">
+    <div class="modal">
+      <div class="modal-header">
+        <span class="modal-title">Sozlamalar</span>
+        <button class="panel-close" onclick="closeSettings()">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="setting-group">
+          <div class="setting-group-title">Ko'rinish</div>
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">Tungi rejim</div>
+              <div class="setting-desc">Qorong'i fon mavzusidan foydalanish</div>
+            </div>
+            <div class="toggle-pill" onclick="toggleTheme()" style="cursor:pointer"></div>
+          </div>
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">Ixcham xabarlar</div>
+              <div class="setting-desc">Xabarlar orasidagi masofani kamaytirish</div>
+            </div>
+            <div class="toggle-pill" style="cursor:pointer"></div>
+          </div>
+        </div>
+        <div class="setting-group">
+          <div class="setting-group-title">Model</div>
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">Asosiy model</div>
+              <div class="setting-desc">O'zbekiston Respublikasi kodekslari</div>
+            </div>
+            <i class="bi bi-chevron-right" style="color:var(--text3)"></i>
+          </div>
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">Jonli javoblar</div>
+              <div class="setting-desc">Javob yozilayotganda ko'rsatish</div>
+            </div>
+            <div class="toggle-pill" style="cursor:pointer;background:var(--accent)" onclick="this.style.background=this.style.background===''?'var(--accent)':''"></div>
+          </div>
+        </div>
+        <div class="setting-group">
+          <div class="setting-group-title">Maxfiylik</div>
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">Suhbat tarixini saqlash</div>
+              <div class="setting-desc">Murojaatlarni lokal saqlash</div>
+            </div>
+            <div class="toggle-pill" style="cursor:pointer;background:var(--accent)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/html-docx-js@0.3.1/dist/html-docx.js"></script>
+  <script src="script.js"></script>
+  </body>
+  </html>
+
